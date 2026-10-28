@@ -1,0 +1,15 @@
+# Netlify Configuration for AquaMonitor Pro Frontend
+[build]
+  publish = "public"
+  command = "echo 'Static build ready'"
+
+[[redirects]]
+  from = "/api/*"
+  to = "https://aquamonitor-pro.onrender.com/api/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

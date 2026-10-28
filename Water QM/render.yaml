@@ -1,0 +1,30 @@
+services:
+  - type: web
+    name: aquamonitor-pro-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 5000
+      - key: JWT_SECRET
+        generateValue: true
+      - key: MONGODB_URI
+        sync: false
+      - key: ADMIN_NOTIFICATION_EMAIL
+        value: admin@aquamonitor.in
+      - key: RAZORPAY_KEY_ID
+        value: rzp_test_aquamonitor2026
+      - key: RAZORPAY_KEY_SECRET
+        sync: false
+      - key: SMTP_HOST
+        value: smtp.gmail.com
+      - key: SMTP_PORT
+        value: 587
+      - key: SMTP_USER
+        sync: false
+      - key: SMTP_PASS
+        sync: false
