@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: aquamonitor-pro
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true
+      - key: ADMIN_NOTIFICATION_EMAIL
+        value: admin@aquamonitor.in
+      - key: RAZORPAY_KEY_ID
+        value: rzp_test_aquamonitor2026
+      - key: RAZORPAY_KEY_SECRET
+        value: aquamonitor_secret_test_key
+      - key: MONGODB_URI
+        sync: false

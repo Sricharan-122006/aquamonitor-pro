@@ -12,7 +12,9 @@ const crypto = require('crypto');
 const path = require('path');
 const fs = require('fs');
 
-const DATA_DIR = path.join(__dirname, '..', '..', 'data');
+const isServerless = !!(process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME);
+const SOURCE_DATA_DIR = path.join(__dirname, '..', '..', 'data');
+const DATA_DIR = isServerless ? path.join('/tmp', 'aquamonitor_data') : SOURCE_DATA_DIR;
 const DEMO_BOOKINGS_FILE = path.join(DATA_DIR, 'demo_bookings.json');
 
 // Ensure demo bookings storage file exists

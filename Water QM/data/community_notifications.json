@@ -460,5 +460,181 @@
     "read": true,
     "createdAt": "2026-10-28T10:44:36.678Z",
     "updatedAt": "2026-10-28T10:44:36.722Z"
+  },
+  {
+    "_id": "6e16edb4-c960-42bc-9edf-579eb83c9bbe",
+    "type": "HIGH_PRIORITY",
+    "title": "High Priority Issue Created: ISS-0013",
+    "message": "Model Town Water Main Rupture in Model Town logged with High priority. Immediate assignment recommended.",
+    "issueRef": "ISS-0013",
+    "priority": "High",
+    "read": false,
+    "createdAt": "2026-10-29T04:20:48.934Z",
+    "updatedAt": "2026-10-29T04:20:48.934Z"
+  },
+  {
+    "_id": "8ae818c9-f60a-40e7-a2c5-c2d234d96846",
+    "type": "NEW_COMPLAINT_LINKED",
+    "title": "1 Complaint(s) Linked to ISS-0013",
+    "message": "Complaints CMP-1072 grouped under Model Town Water Main Rupture.",
+    "issueRef": "ISS-0013",
+    "priority": "High",
+    "read": false,
+    "createdAt": "2026-10-29T04:20:48.967Z",
+    "updatedAt": "2026-10-29T04:20:48.967Z"
+  },
+  {
+    "_id": "b045c667-0cf3-4e82-a9ae-48d88b0c5efd",
+    "type": "RESOLUTION_CONFIRMED",
+    "title": "Community Issue Resolved: ISS-0013",
+    "message": "Model Town Water Main Rupture resolved by Aqua Administrator.",
+    "issueRef": "ISS-0013",
+    "priority": "High",
+    "read": false,
+    "createdAt": "2026-10-29T04:20:49.020Z",
+    "updatedAt": "2026-10-29T04:20:49.020Z"
+  },
+  {
+    "_id": "bc6970cd-854b-424a-83b4-0fe0e4dd7365",
+    "type": "ISSUE_REOPENED",
+    "title": "Issue Reopened: ISS-0013",
+    "message": "Model Town Water Main Rupture was reopened. Reason: Secondary micro-leak reported 15 meters downstream.",
+    "issueRef": "ISS-0013",
+    "priority": "High",
+    "read": true,
+    "createdAt": "2026-10-29T04:20:49.042Z",
+    "updatedAt": "2026-10-29T04:20:49.095Z"
+  },
+  {
+    "_id": "3de55618-3af0-4e0a-a75d-1bc15288c2a1",
+    "type": "HIGH_PRIORITY",
+    "title": "High Priority Issue Created: ISS-0014",
+    "message": "Model Town Water Main Rupture in Model Town logged with High priority. Immediate assignment recommended.",
+    "issueRef": "ISS-0014",
+    "priority": "High",
+    "read": false,
+    "createdAt": "2026-10-29T04:28:39.293Z",
+    "updatedAt": "2026-10-29T04:28:39.293Z"
+  },
+  {
+    "_id": "ee31130b-a02f-4365-81b2-7c7148e5946d",
+    "type": "NEW_COMPLAINT_LINKED",
+    "title": "1 Complaint(s) Linked to ISS-0014",
+    "message": "Complaints CMP-1072 grouped under Model Town Water Main Rupture.",
+    "issueRef": "ISS-0014",
+    "priority": "High",
+    "read": false,
+    "createdAt": "2026-10-29T04:28:39.321Z",
+    "updatedAt": "2026-10-29T04:28:39.321Z"
+  },
+  {
+    "_id": "3fefa67c-5150-4145-b72f-9291d7380cee",
+    "type": "RESOLUTION_CONFIRMED",
+    "title": "Community Issue Resolved: ISS-0014",
+    "message": "Model Town Water Main Rupture resolved by Aqua Administrator.",
+    "issueRef": "ISS-0014",
+    "priority": "High",
+    "read": false,
+    "createdAt": "2026-10-29T04:28:39.371Z",
+    "updatedAt": "2026-10-29T04:28:39.371Z"
+  },
+  {
+    "_id": "ef28f68a-bdcb-4a72-a2a8-120a9c648e98",
+    "type": "ISSUE_REOPENED",
+    "title": "Issue Reopened: ISS-0014",
+    "message": "Model Town Water Main Rupture was reopened. Reason: Secondary micro-leak reported 15 meters downstream.",
+    "issueRef": "ISS-0014",
+    "priority": "High",
+    "read": true,
+    "createdAt": "2026-10-29T04:28:39.385Z",
+    "updatedAt": "2026-10-29T04:28:39.427Z"
+  },
+  {
+    "_id": "59ab985d-7a24-4eeb-8244-0199ce3373f2",
+    "type": "HIGH_PRIORITY",
+    "title": "High Priority Issue Created: ISS-0015",
+    "message": "Model Town Water Main Rupture in Model Town logged with High priority. Immediate assignment recommended.",
+    "issueRef": "ISS-0015",
+    "priority": "High",
+    "read": false,
+    "createdAt": "2026-10-29T04:37:08.111Z",
+    "updatedAt": "2026-10-29T04:37:08.111Z"
+  },
+  {
+    "_id": "4bd88132-ae95-4ac1-ab56-39bb03fe5400",
+    "type": "NEW_COMPLAINT_LINKED",
+    "title": "1 Complaint(s) Linked to ISS-0015",
+    "message": "Complaints CMP-1072 grouped under Model Town Water Main Rupture.",
+    "issueRef": "ISS-0015",
+    "priority": "High",
+    "read": false,
+    "createdAt": "2026-10-29T04:37:08.132Z",
+    "updatedAt": "2026-10-29T04:37:08.132Z"
+  },
+  {
+    "_id": "2d62b1fc-f6a9-4c0b-9808-e8b9c9dd0a70",
+    "type": "RESOLUTION_CONFIRMED",
+    "title": "Community Issue Resolved: ISS-0015",
+    "message": "Model Town Water Main Rupture resolved by Aqua Administrator.",
+    "issueRef": "ISS-0015",
+    "priority": "High",
+    "read": false,
+    "createdAt": "2026-10-29T04:37:08.171Z",
+    "updatedAt": "2026-10-29T04:37:08.171Z"
+  },
+  {
+    "_id": "7d353f24-2f6a-41bb-99be-703c8afba1bf",
+    "type": "ISSUE_REOPENED",
+    "title": "Issue Reopened: ISS-0015",
+    "message": "Model Town Water Main Rupture was reopened. Reason: Secondary micro-leak reported 15 meters downstream.",
+    "issueRef": "ISS-0015",
+    "priority": "High",
+    "read": true,
+    "createdAt": "2026-10-29T04:37:08.185Z",
+    "updatedAt": "2026-10-29T04:37:08.216Z"
+  },
+  {
+    "_id": "b3d05a54-6515-4ca9-bdfc-eacda305938f",
+    "type": "HIGH_PRIORITY",
+    "title": "High Priority Issue Created: ISS-0016",
+    "message": "Model Town Water Main Rupture in Model Town logged with High priority. Immediate assignment recommended.",
+    "issueRef": "ISS-0016",
+    "priority": "High",
+    "read": false,
+    "createdAt": "2026-10-29T04:48:12.406Z",
+    "updatedAt": "2026-10-29T04:48:12.406Z"
+  },
+  {
+    "_id": "9412466a-0c4e-4432-ba51-cff42af3327b",
+    "type": "NEW_COMPLAINT_LINKED",
+    "title": "1 Complaint(s) Linked to ISS-0016",
+    "message": "Complaints CMP-1072 grouped under Model Town Water Main Rupture.",
+    "issueRef": "ISS-0016",
+    "priority": "High",
+    "read": false,
+    "createdAt": "2026-10-29T04:48:12.432Z",
+    "updatedAt": "2026-10-29T04:48:12.432Z"
+  },
+  {
+    "_id": "05a30a9b-5e54-4d2c-b209-cd4f73112bff",
+    "type": "RESOLUTION_CONFIRMED",
+    "title": "Community Issue Resolved: ISS-0016",
+    "message": "Model Town Water Main Rupture resolved by Aqua Administrator.",
+    "issueRef": "ISS-0016",
+    "priority": "High",
+    "read": false,
+    "createdAt": "2026-10-29T04:48:12.472Z",
+    "updatedAt": "2026-10-29T04:48:12.472Z"
+  },
+  {
+    "_id": "bac879e0-26a1-4998-aea4-4f6e4c7efeff",
+    "type": "ISSUE_REOPENED",
+    "title": "Issue Reopened: ISS-0016",
+    "message": "Model Town Water Main Rupture was reopened. Reason: Secondary micro-leak reported 15 meters downstream.",
+    "issueRef": "ISS-0016",
+    "priority": "High",
+    "read": true,
+    "createdAt": "2026-10-29T04:48:12.483Z",
+    "updatedAt": "2026-10-29T04:48:12.514Z"
   }
 ]

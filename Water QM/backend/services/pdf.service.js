@@ -2,7 +2,10 @@ const PDFDocument = require('pdfkit');
 const fs = require('fs');
 const path = require('path');
 
-const REPORTS_DIR = path.join(__dirname, '..', '..', 'public', 'reports_files');
+const isServerless = !!(process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME);
+const REPORTS_DIR = isServerless 
+  ? path.join('/tmp', 'reports_files')
+  : path.join(__dirname, '..', '..', 'public', 'reports_files');
 if (!fs.existsSync(REPORTS_DIR)) {
   fs.mkdirSync(REPORTS_DIR, { recursive: true });
 }

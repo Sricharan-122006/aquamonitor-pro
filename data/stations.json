@@ -1,0 +1,212 @@
+[
+  {
+    "_id": "74ca5c9f-663b-431d-aa12-8425c1612ead",
+    "stationId": "ST001",
+    "name": "Kaveri",
+    "location": "Karnataka",
+    "latitude": 12.42,
+    "longitude": 75.73,
+    "status": "Safe",
+    "wqi": 100,
+    "latestReading": {
+      "ph": 7.2,
+      "turbidity": 14,
+      "temperature": 25,
+      "dissolvedOxygen": 8,
+      "tds": 160,
+      "conductivity": 240,
+      "timeString": "12:07:46 PM"
+    },
+    "createdAt": "2026-10-27T17:30:28.869Z",
+    "updatedAt": "2026-10-27T17:30:28.869Z"
+  },
+  {
+    "_id": "3f167998-f079-43cb-8191-78da80996956",
+    "stationId": "ST002",
+    "name": "Yamuna",
+    "location": "Delhi",
+    "latitude": 28.61,
+    "longitude": 77.23,
+    "status": "Safe",
+    "wqi": 70,
+    "latestReading": {
+      "ph": 7.1,
+      "turbidity": 58,
+      "temperature": 18,
+      "dissolvedOxygen": 6.2,
+      "tds": 564,
+      "conductivity": 410,
+      "timeString": "10:33:04 PM"
+    },
+    "createdAt": "2026-10-27T17:30:28.879Z",
+    "updatedAt": "2026-10-27T17:30:28.879Z"
+  },
+  {
+    "_id": "4b2725da-dbda-413a-ae40-d8646ea3db67",
+    "stationId": "ST003",
+    "name": "Godavari",
+    "location": "Nashik, Maharashtra",
+    "latitude": 19.99,
+    "longitude": 73.78,
+    "status": "Safe",
+    "wqi": 90,
+    "latestReading": {
+      "ph": 7.3,
+      "turbidity": 55,
+      "temperature": 28,
+      "dissolvedOxygen": 7.8,
+      "tds": 320,
+      "conductivity": 380,
+      "timeString": "12:02:17 PM"
+    },
+    "createdAt": "2026-10-27T17:30:28.888Z",
+    "updatedAt": "2026-10-27T17:30:28.888Z"
+  },
+  {
+    "_id": "f84e91bd-d721-47e4-add6-125bec389ea5",
+    "stationId": "ST004",
+    "name": "Saraswati",
+    "location": "Kurukshetra, Haryana",
+    "latitude": 30.12,
+    "longitude": 76.87,
+    "status": "Alert",
+    "wqi": 25,
+    "latestReading": {
+      "ph": 9.2,
+      "turbidity": 100,
+      "temperature": 26,
+      "dissolvedOxygen": 3.41,
+      "tds": 849.7,
+      "conductivity": 780,
+      "timeString": "3:04:34 PM"
+    },
+    "createdAt": "2026-10-27T17:30:28.896Z",
+    "updatedAt": "2026-10-27T17:30:28.896Z"
+  },
+  {
+    "_id": "833b6b1d-d300-47ca-a28a-85dfb160053a",
+    "stationId": "ST005",
+    "name": "Narmada",
+    "location": "Jabalpur, Madhya Pradesh",
+    "latitude": 23.18,
+    "longitude": 79.98,
+    "status": "Safe",
+    "wqi": 100,
+    "latestReading": {
+      "ph": 7,
+      "turbidity": 18,
+      "temperature": 24,
+      "dissolvedOxygen": 8.5,
+      "tds": 180,
+      "conductivity": 260,
+      "timeString": "7:25:20 PM"
+    },
+    "createdAt": "2026-10-27T17:30:28.903Z",
+    "updatedAt": "2026-10-27T17:30:28.903Z"
+  },
+  {
+    "_id": "26052f83-0868-4c21-bdfc-3121c4a89906",
+    "stationId": "ST006",
+    "name": "Ganga",
+    "location": "Varanasi, Uttar Pradesh",
+    "latitude": 25.31,
+    "longitude": 82.97,
+    "status": "Safe",
+    "wqi": 95,
+    "latestReading": {
+      "ph": 7.4,
+      "turbidity": 28,
+      "temperature": 22,
+      "dissolvedOxygen": 7.9,
+      "tds": 210,
+      "conductivity": 310,
+      "timeString": "11:15:00 AM"
+    },
+    "createdAt": "2026-10-27T17:30:28.911Z",
+    "updatedAt": "2026-10-27T17:30:28.911Z"
+  },
+  {
+    "_id": "6463c2f1-f64b-4104-a628-9d8424cab5c6",
+    "stationId": "ST007",
+    "name": "Damodar",
+    "location": "Dhanbad, Jharkhand",
+    "latitude": 23.79,
+    "longitude": 86.43,
+    "status": "Alert",
+    "wqi": 45,
+    "latestReading": {
+      "ph": 5,
+      "turbidity": 85,
+      "temperature": 27,
+      "dissolvedOxygen": 1,
+      "tds": 800,
+      "conductivity": 720,
+      "timeString": "1:12:34 PM"
+    },
+    "createdAt": "2026-10-27T17:30:28.920Z",
+    "updatedAt": "2026-10-27T17:30:28.920Z"
+  },
+  {
+    "_id": "23e367cc-7eec-4942-83a8-170d889840f5",
+    "stationId": "ST008",
+    "name": "Banas",
+    "location": "Tonk, Rajasthan",
+    "latitude": 26.16,
+    "longitude": 75.78,
+    "status": "Safe",
+    "wqi": 85,
+    "latestReading": {
+      "ph": 7.2,
+      "turbidity": 32,
+      "temperature": 23,
+      "dissolvedOxygen": 7.2,
+      "tds": 290,
+      "conductivity": 340,
+      "timeString": "09:40:12 AM"
+    },
+    "createdAt": "2026-10-27T17:30:28.930Z",
+    "updatedAt": "2026-10-27T17:30:28.930Z"
+  },
+  {
+    "_id": "22198ea5-a591-4db3-9dac-df673bfc6c69",
+    "stationId": "ST009",
+    "name": "Brahmaputra",
+    "location": "Guwahati, Assam",
+    "latitude": 26.14,
+    "longitude": 91.73,
+    "status": "Safe",
+    "wqi": 100,
+    "latestReading": {
+      "ph": 7.1,
+      "turbidity": 22,
+      "temperature": 21,
+      "dissolvedOxygen": 8.8,
+      "tds": 170,
+      "conductivity": 250,
+      "timeString": "08:22:45 AM"
+    },
+    "createdAt": "2026-10-27T17:30:28.938Z",
+    "updatedAt": "2026-10-27T17:30:28.939Z"
+  },
+  {
+    "_id": "00042551-152d-43a1-989b-753d1315bd19",
+    "stationId": "ST010",
+    "name": "Ravi River",
+    "location": "Ludhiana, Punjab",
+    "latitude": 30.9,
+    "longitude": 75.85,
+    "status": "Safe",
+    "wqi": 88,
+    "latestReading": {
+      "ph": 7.3,
+      "turbidity": 26,
+      "temperature": 20,
+      "dissolvedOxygen": 8.1,
+      "tds": 240,
+      "conductivity": 290,
+      "timeString": "11:58:14 AM"
+    },
+    "createdAt": "2026-10-27T17:30:28.947Z",
+    "updatedAt": "2026-10-27T17:30:28.947Z"
+  }
+]

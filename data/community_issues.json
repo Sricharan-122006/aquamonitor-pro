@@ -1,0 +1,2051 @@
+[
+  {
+    "_id": "579c33de-6424-4129-9974-a48fd5db38ed",
+    "issueRef": "ISS-0001",
+    "title": "Water leakage report cluster",
+    "category": "Pipeline Leakage",
+    "locality": "Model Town",
+    "locationDetails": "Sector 2 & Central Water Tank perimeter",
+    "stationId": "ST002",
+    "description": "Multiple citizen reports received indicating subterranean pipe ruptures and surface water logging in Model Town.",
+    "priority": "High",
+    "status": "Under Investigation",
+    "assignedTo": "Unassigned",
+    "assignedTeam": "Unassigned",
+    "linkedComplaintIds": [
+      "CMP-1024",
+      "CMP-1031",
+      "CMP-1042"
+    ],
+    "linkedCount": 3,
+    "internalNotes": [
+      {
+        "id": "note-001",
+        "note": "Initial engineering review suggests pressure surge from Sector 2 booster pump ruptured secondary distribution line.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-27T12:37:40.159Z"
+      }
+    ],
+    "publicUpdates": [
+      {
+        "id": "update-001",
+        "message": "Municipal maintenance crew has been dispatched to Model Town to conduct acoustic leak detection.",
+        "publishedBy": "Aqua Administrator",
+        "publishedAt": "2026-10-27T16:37:40.159Z"
+      }
+    ],
+    "activityTimeline": [
+      {
+        "id": "act-001",
+        "action": "Issue Created",
+        "details": "Community issue initialized by administrator following 3 concurrent leakage complaints.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-27T08:37:40.159Z"
+      },
+      {
+        "id": "act-002",
+        "action": "Related Complaints Linked",
+        "details": "3 complaints (CMP-1024, CMP-1031, CMP-1042) linked to this common community issue.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-27T08:37:40.159Z"
+      },
+      {
+        "id": "act-003",
+        "action": "Internal Note Added",
+        "details": "Staff investigation note recorded.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-27T12:37:40.159Z"
+      },
+      {
+        "id": "act-004",
+        "action": "Public Progress Update Published",
+        "details": "Dispatched maintenance update shared with affected citizens.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-27T16:37:40.159Z"
+      }
+    ],
+    "resolutionSummary": "",
+    "resolvedBy": "",
+    "resolvedAt": null,
+    "reopenHistory": [],
+    "createdAt": "2026-10-28T08:37:40.159Z",
+    "updatedAt": "2026-10-28T08:37:40.159Z"
+  },
+  {
+    "_id": "1c7465db-6bd8-4c29-9064-61c89bf2ccba",
+    "issueRef": "ISS-0002",
+    "title": "Pipeline inspection required",
+    "category": "Odor / Discoloration",
+    "locality": "Industrial Phase 1",
+    "locationDetails": "Kaveri Junction & Workers Colony Zone",
+    "stationId": "ST001",
+    "description": "Reports of metallic odor and yellowish tint in industrial area water feeder lines.",
+    "priority": "Medium",
+    "status": "Action in Progress",
+    "assignedTo": "Municipal Pipeline Maintenance",
+    "assignedTeam": "Municipal Pipeline Maintenance",
+    "linkedComplaintIds": [
+      "CMP-1055",
+      "CMP-1060"
+    ],
+    "linkedCount": 2,
+    "internalNotes": [
+      {
+        "id": "note-002",
+        "note": "Industrial backflow prevention valve test scheduled for 14:00 today.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-27T22:37:40.160Z"
+      }
+    ],
+    "publicUpdates": [
+      {
+        "id": "update-002",
+        "message": "Flushing of distribution main underway. Water sample taken for quality verification.",
+        "publishedBy": "Aqua Administrator",
+        "publishedAt": "2026-10-28T02:37:40.160Z"
+      }
+    ],
+    "activityTimeline": [
+      {
+        "id": "act-101",
+        "action": "Issue Created",
+        "details": "Issue created by administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-27T20:37:40.160Z"
+      },
+      {
+        "id": "act-102",
+        "action": "Assignment Changed",
+        "details": "Assigned to Municipal Pipeline Maintenance team.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-27T21:37:40.160Z"
+      },
+      {
+        "id": "act-103",
+        "action": "Status Transition to Action in Progress",
+        "details": "Maintenance team on site flushing main conduit.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T00:37:40.160Z"
+      }
+    ],
+    "resolutionSummary": "",
+    "resolvedBy": "",
+    "resolvedAt": null,
+    "reopenHistory": [],
+    "createdAt": "2026-10-28T08:37:40.170Z",
+    "updatedAt": "2026-10-28T08:37:40.170Z"
+  },
+  {
+    "_id": "a31b950f-1edf-43b1-b520-d1228e5d1cc6",
+    "issueRef": "ISS-0003",
+    "title": "Model Town Water Main Rupture",
+    "category": "Pipeline Leakage",
+    "locality": "Model Town",
+    "locationDetails": "Sector 4 Community Hall area",
+    "stationId": "",
+    "description": "Cluster of pipeline breakages causing localized flooding and pressure collapse.",
+    "priority": "High",
+    "status": "Reopened",
+    "assignedTo": "Field Rapid Response Team",
+    "assignedTeam": "Field Rapid Response Team",
+    "linkedComplaintIds": [
+      "5604d759-12bf-4a0b-b9c2-f2fa44665859"
+    ],
+    "linkedCount": 1,
+    "internalNotes": [
+      {
+        "id": "3f199711-2680-4087-9dc7-edb203dd9eba",
+        "note": "Ground inspection scheduled for 10:00 AM.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-28T08:38:47.426Z"
+      },
+      {
+        "id": "a6e87187-361d-4b26-9a6f-2d19817ad48c",
+        "note": "CONFIDENTIAL: Contractor penalized for negligence during trench excavation.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-28T08:38:47.626Z"
+      }
+    ],
+    "publicUpdates": [
+      {
+        "id": "920224e7-63f1-44e0-81ac-62e9efe3dcfe",
+        "message": "Repairs completed on main line. Secondary line flushing in progress.",
+        "publishedBy": "Aqua Administrator",
+        "publishedAt": "2026-10-28T08:38:47.646Z"
+      }
+    ],
+    "activityTimeline": [
+      {
+        "id": "7fd350da-f158-4c74-9f8e-236b7cf30a42",
+        "action": "Issue Created",
+        "details": "Community issue \"Model Town Water Main Rupture\" initialized by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:38:47.426Z"
+      },
+      {
+        "id": "eea0aa91-0421-44cb-8cc8-cfbf74b1ab61",
+        "action": "Investigation Note Added",
+        "details": "Initial internal assessment recorded.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:38:47.426Z"
+      },
+      {
+        "id": "92fcd1ce-1ddd-4673-a641-7351f8684ea5",
+        "action": "Related Complaints Linked",
+        "details": "1 citizen complaint(s) linked under this common issue.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:38:47.427Z"
+      },
+      {
+        "id": "08440e54-b51a-4fc7-9ffa-25fe97dc03cc",
+        "action": "Complaints Linked",
+        "details": "1 complaint(s) (CMP-1072) linked by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:38:47.472Z"
+      },
+      {
+        "id": "8ab62738-5bfc-46b1-b25c-bbc48bbe2532",
+        "action": "Complaint Unlinked",
+        "details": "Complaint CMP-1072 unlinked by Aqua Administrator. Reason: \"Investigated and determined to be isolated internal building plumbing issue, unrelated to main water conduit.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:38:47.519Z"
+      },
+      {
+        "id": "fe99966b-4ac4-40cf-8c6c-f524e527196d",
+        "action": "Status Transition to Under Investigation",
+        "details": "Status advanced from New to Under Investigation.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:38:47.549Z"
+      },
+      {
+        "id": "938589cd-bcdb-4a40-997b-41d320919f4f",
+        "action": "Issue Resolved",
+        "details": "Resolution summary recorded: \"Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:38:47.580Z"
+      },
+      {
+        "id": "675797d6-0214-4248-9596-e591269f0648",
+        "action": "Issue Reopened",
+        "details": "Reopened by Aqua Administrator. Reason: \"Secondary micro-leak reported 15 meters downstream.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:38:47.610Z"
+      },
+      {
+        "id": "e75b4794-5b1e-44fc-b5de-b5f88c79ca03",
+        "action": "Internal Note Added",
+        "details": "Staff investigation note recorded by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:38:47.626Z"
+      },
+      {
+        "id": "1447de2d-8676-435f-8016-bd0f064c1a4e",
+        "action": "Public Progress Update Published",
+        "details": "Official update shared with affected citizens: \"Repairs completed on main line. Secondary line flushing in progress.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:38:47.646Z"
+      }
+    ],
+    "resolutionSummary": "Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.",
+    "resolvedBy": "Aqua Administrator",
+    "resolvedAt": "2026-10-28T08:38:47.580Z",
+    "reopenHistory": [
+      {
+        "reason": "Secondary micro-leak reported 15 meters downstream.",
+        "reopenedBy": "Aqua Administrator",
+        "reopenedAt": "2026-10-28T08:38:47.610Z"
+      }
+    ],
+    "createdAt": "2026-10-28T08:38:47.428Z",
+    "updatedAt": "2026-10-28T08:38:47.646Z"
+  },
+  {
+    "_id": "10eb337f-94fd-4540-aa83-121e66de5b28",
+    "issueRef": "ISS-0004",
+    "title": "Model Town Water Main Rupture",
+    "category": "Pipeline Leakage",
+    "locality": "Model Town",
+    "locationDetails": "Sector 4 Community Hall area",
+    "stationId": "",
+    "description": "Cluster of pipeline breakages causing localized flooding and pressure collapse.",
+    "priority": "High",
+    "status": "Reopened",
+    "assignedTo": "Field Rapid Response Team",
+    "assignedTeam": "Field Rapid Response Team",
+    "linkedComplaintIds": [
+      "ae119f32-fb3c-4d01-add8-190a69b8fee0"
+    ],
+    "linkedCount": 1,
+    "internalNotes": [
+      {
+        "id": "4754ccee-a5d6-4182-8d83-427f1ebb9f31",
+        "note": "Ground inspection scheduled for 10:00 AM.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-28T08:39:20.875Z"
+      },
+      {
+        "id": "969a7ba1-1f59-446e-ad0f-deddb61083e2",
+        "note": "CONFIDENTIAL: Contractor penalized for negligence during trench excavation.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-28T08:39:21.039Z"
+      }
+    ],
+    "publicUpdates": [
+      {
+        "id": "163c97fc-bb7a-46cd-968e-5a2d7f5f8f56",
+        "message": "Repairs completed on main line. Secondary line flushing in progress.",
+        "publishedBy": "Aqua Administrator",
+        "publishedAt": "2026-10-28T08:39:21.070Z"
+      }
+    ],
+    "activityTimeline": [
+      {
+        "id": "ac207682-261f-4203-ac99-e69ca0428c82",
+        "action": "Issue Created",
+        "details": "Community issue \"Model Town Water Main Rupture\" initialized by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:39:20.875Z"
+      },
+      {
+        "id": "0132c7c2-1f47-433b-94a5-51590e13043a",
+        "action": "Investigation Note Added",
+        "details": "Initial internal assessment recorded.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:39:20.875Z"
+      },
+      {
+        "id": "b4918cc5-8a6e-49e7-a709-f538497427c3",
+        "action": "Related Complaints Linked",
+        "details": "1 citizen complaint(s) linked under this common issue.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:39:20.876Z"
+      },
+      {
+        "id": "eaf1955a-9f83-4041-8a14-c6abb7d85285",
+        "action": "Complaints Linked",
+        "details": "1 complaint(s) (CMP-1072) linked by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:39:20.915Z"
+      },
+      {
+        "id": "9fdd4ad0-f0d8-4c74-88b9-420413524a17",
+        "action": "Complaint Unlinked",
+        "details": "Complaint CMP-1072 unlinked by Aqua Administrator. Reason: \"Investigated and determined to be isolated internal building plumbing issue, unrelated to main water conduit.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:39:20.946Z"
+      },
+      {
+        "id": "3d58e049-bf2b-4983-9cc3-92f3065da121",
+        "action": "Status Transition to Under Investigation",
+        "details": "Status advanced from New to Under Investigation.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:39:20.963Z"
+      },
+      {
+        "id": "bfe644b6-7f01-4c07-83df-f59c6f60c859",
+        "action": "Issue Resolved",
+        "details": "Resolution summary recorded: \"Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:39:20.992Z"
+      },
+      {
+        "id": "64efcca8-fd74-4f6f-82c9-aae0931346ed",
+        "action": "Issue Reopened",
+        "details": "Reopened by Aqua Administrator. Reason: \"Secondary micro-leak reported 15 meters downstream.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:39:21.023Z"
+      },
+      {
+        "id": "9a0a61cd-7754-42bf-bd3f-20d1821cff7d",
+        "action": "Internal Note Added",
+        "details": "Staff investigation note recorded by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:39:21.039Z"
+      },
+      {
+        "id": "b2b6ed68-4565-461f-b52d-9fb461012e08",
+        "action": "Public Progress Update Published",
+        "details": "Official update shared with affected citizens: \"Repairs completed on main line. Secondary line flushing in progress.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:39:21.070Z"
+      }
+    ],
+    "resolutionSummary": "Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.",
+    "resolvedBy": "Aqua Administrator",
+    "resolvedAt": "2026-10-28T08:39:20.992Z",
+    "reopenHistory": [
+      {
+        "reason": "Secondary micro-leak reported 15 meters downstream.",
+        "reopenedBy": "Aqua Administrator",
+        "reopenedAt": "2026-10-28T08:39:21.023Z"
+      }
+    ],
+    "createdAt": "2026-10-28T08:39:20.876Z",
+    "updatedAt": "2026-10-28T08:39:21.070Z"
+  },
+  {
+    "_id": "e87a952d-f274-486d-bcd0-ec86fe377547",
+    "issueRef": "ISS-0005",
+    "title": "Model Town Water Main Rupture",
+    "category": "Pipeline Leakage",
+    "locality": "Model Town",
+    "locationDetails": "Sector 4 Community Hall area",
+    "stationId": "",
+    "description": "Cluster of pipeline breakages causing localized flooding and pressure collapse.",
+    "priority": "High",
+    "status": "Reopened",
+    "assignedTo": "Field Rapid Response Team",
+    "assignedTeam": "Field Rapid Response Team",
+    "linkedComplaintIds": [
+      "b8e123e4-ee5e-435d-86e7-917b98a90361"
+    ],
+    "linkedCount": 1,
+    "internalNotes": [
+      {
+        "id": "6b7d4162-1987-437b-9737-87fd71ea91ff",
+        "note": "Ground inspection scheduled for 10:00 AM.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-28T08:51:07.953Z"
+      },
+      {
+        "id": "3c672dbe-b3c6-4fdc-b233-13effcbf4b68",
+        "note": "CONFIDENTIAL: Contractor penalized for negligence during trench excavation.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-28T08:51:08.220Z"
+      }
+    ],
+    "publicUpdates": [
+      {
+        "id": "34db08c4-9503-4f92-b3c8-d8c9034603cb",
+        "message": "Repairs completed on main line. Secondary line flushing in progress.",
+        "publishedBy": "Aqua Administrator",
+        "publishedAt": "2026-10-28T08:51:08.246Z"
+      }
+    ],
+    "activityTimeline": [
+      {
+        "id": "f79b9748-e249-4620-bb1a-033b1974fd0c",
+        "action": "Issue Created",
+        "details": "Community issue \"Model Town Water Main Rupture\" initialized by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:51:07.953Z"
+      },
+      {
+        "id": "b65b7c55-e6ff-48e0-ab97-2d4881422407",
+        "action": "Investigation Note Added",
+        "details": "Initial internal assessment recorded.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:51:07.954Z"
+      },
+      {
+        "id": "6e6604ab-346c-4e31-89de-c640d633d1b2",
+        "action": "Related Complaints Linked",
+        "details": "1 citizen complaint(s) linked under this common issue.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:51:07.955Z"
+      },
+      {
+        "id": "f6125cb9-2f4c-4f55-9b92-def081fabe7e",
+        "action": "Complaints Linked",
+        "details": "1 complaint(s) (CMP-1072) linked by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:51:08.044Z"
+      },
+      {
+        "id": "871f23f9-5d42-446c-824a-d77e4198f60e",
+        "action": "Complaint Unlinked",
+        "details": "Complaint CMP-1072 unlinked by Aqua Administrator. Reason: \"Investigated and determined to be isolated internal building plumbing issue, unrelated to main water conduit.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:51:08.072Z"
+      },
+      {
+        "id": "cde0c993-86b1-4968-9585-6786817e74ae",
+        "action": "Status Transition to Under Investigation",
+        "details": "Status advanced from New to Under Investigation.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:51:08.108Z"
+      },
+      {
+        "id": "06c32633-fc9c-4af5-a482-c36c2ee063d3",
+        "action": "Issue Resolved",
+        "details": "Resolution summary recorded: \"Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:51:08.138Z"
+      },
+      {
+        "id": "0f9f2503-336a-4f5b-b970-bf80b5a4bfca",
+        "action": "Issue Reopened",
+        "details": "Reopened by Aqua Administrator. Reason: \"Secondary micro-leak reported 15 meters downstream.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:51:08.200Z"
+      },
+      {
+        "id": "68a9f255-1bd2-4ff6-aec3-a76da1fa1c05",
+        "action": "Internal Note Added",
+        "details": "Staff investigation note recorded by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:51:08.220Z"
+      },
+      {
+        "id": "3bf6e583-c986-4ea2-9aef-cc8fa66c6a05",
+        "action": "Public Progress Update Published",
+        "details": "Official update shared with affected citizens: \"Repairs completed on main line. Secondary line flushing in progress.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:51:08.247Z"
+      }
+    ],
+    "resolutionSummary": "Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.",
+    "resolvedBy": "Aqua Administrator",
+    "resolvedAt": "2026-10-28T08:51:08.138Z",
+    "reopenHistory": [
+      {
+        "reason": "Secondary micro-leak reported 15 meters downstream.",
+        "reopenedBy": "Aqua Administrator",
+        "reopenedAt": "2026-10-28T08:51:08.200Z"
+      }
+    ],
+    "createdAt": "2026-10-28T08:51:07.956Z",
+    "updatedAt": "2026-10-28T08:51:08.247Z"
+  },
+  {
+    "_id": "97db86b3-daa5-4f81-9904-a9ceb78343c3",
+    "issueRef": "ISS-0006",
+    "title": "Model Town Water Main Rupture",
+    "category": "Pipeline Leakage",
+    "locality": "Model Town",
+    "locationDetails": "Sector 4 Community Hall area",
+    "stationId": "",
+    "description": "Cluster of pipeline breakages causing localized flooding and pressure collapse.",
+    "priority": "High",
+    "status": "Reopened",
+    "assignedTo": "Field Rapid Response Team",
+    "assignedTeam": "Field Rapid Response Team",
+    "linkedComplaintIds": [
+      "0b945a84-221b-42cf-a5b5-9e458f594253"
+    ],
+    "linkedCount": 1,
+    "internalNotes": [
+      {
+        "id": "0be340b4-641d-4590-acbc-6bffacfe28b6",
+        "note": "Ground inspection scheduled for 10:00 AM.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-28T08:52:15.549Z"
+      },
+      {
+        "id": "9b806561-46ee-4b58-b4f4-4500c6833219",
+        "note": "CONFIDENTIAL: Contractor penalized for negligence during trench excavation.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-28T08:52:15.720Z"
+      }
+    ],
+    "publicUpdates": [
+      {
+        "id": "535b2291-3166-4312-8221-d2ab89c1ea1a",
+        "message": "Repairs completed on main line. Secondary line flushing in progress.",
+        "publishedBy": "Aqua Administrator",
+        "publishedAt": "2026-10-28T08:52:15.750Z"
+      }
+    ],
+    "activityTimeline": [
+      {
+        "id": "62768247-1f8d-42c6-a903-e64d9fb6dd88",
+        "action": "Issue Created",
+        "details": "Community issue \"Model Town Water Main Rupture\" initialized by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:52:15.549Z"
+      },
+      {
+        "id": "4401aead-9401-4159-9b7f-83f7592a64b0",
+        "action": "Investigation Note Added",
+        "details": "Initial internal assessment recorded.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:52:15.549Z"
+      },
+      {
+        "id": "d987ae8d-9c42-422a-990d-67532561789f",
+        "action": "Related Complaints Linked",
+        "details": "1 citizen complaint(s) linked under this common issue.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:52:15.550Z"
+      },
+      {
+        "id": "e5a4fb66-f57d-45a1-a58d-45ce9fbe7b73",
+        "action": "Complaints Linked",
+        "details": "1 complaint(s) (CMP-1072) linked by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:52:15.586Z"
+      },
+      {
+        "id": "85dccb7a-474e-49ad-ae83-f3d023dcefdb",
+        "action": "Complaint Unlinked",
+        "details": "Complaint CMP-1072 unlinked by Aqua Administrator. Reason: \"Investigated and determined to be isolated internal building plumbing issue, unrelated to main water conduit.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:52:15.626Z"
+      },
+      {
+        "id": "113f5b9e-2284-49f4-bd80-12c333f77d9b",
+        "action": "Status Transition to Under Investigation",
+        "details": "Status advanced from New to Under Investigation.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:52:15.658Z"
+      },
+      {
+        "id": "99d6ccdd-ecaa-4b07-a1b0-4821902e906e",
+        "action": "Issue Resolved",
+        "details": "Resolution summary recorded: \"Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:52:15.676Z"
+      },
+      {
+        "id": "3423f73c-9dfe-4463-9580-a7e2095ea0b8",
+        "action": "Issue Reopened",
+        "details": "Reopened by Aqua Administrator. Reason: \"Secondary micro-leak reported 15 meters downstream.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:52:15.704Z"
+      },
+      {
+        "id": "537dac97-aeb8-4aca-a247-1484393646b9",
+        "action": "Internal Note Added",
+        "details": "Staff investigation note recorded by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:52:15.720Z"
+      },
+      {
+        "id": "6b45e6ce-be4c-4635-8652-6ce97c87920d",
+        "action": "Public Progress Update Published",
+        "details": "Official update shared with affected citizens: \"Repairs completed on main line. Secondary line flushing in progress.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:52:15.750Z"
+      }
+    ],
+    "resolutionSummary": "Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.",
+    "resolvedBy": "Aqua Administrator",
+    "resolvedAt": "2026-10-28T08:52:15.676Z",
+    "reopenHistory": [
+      {
+        "reason": "Secondary micro-leak reported 15 meters downstream.",
+        "reopenedBy": "Aqua Administrator",
+        "reopenedAt": "2026-10-28T08:52:15.704Z"
+      }
+    ],
+    "createdAt": "2026-10-28T08:52:15.551Z",
+    "updatedAt": "2026-10-28T08:52:15.751Z"
+  },
+  {
+    "_id": "9af51d14-12b1-42a0-8f28-4701ae0309d9",
+    "issueRef": "ISS-0007",
+    "title": "Model Town Water Main Rupture",
+    "category": "Pipeline Leakage",
+    "locality": "Model Town",
+    "locationDetails": "Sector 4 Community Hall area",
+    "stationId": "",
+    "description": "Cluster of pipeline breakages causing localized flooding and pressure collapse.",
+    "priority": "High",
+    "status": "Reopened",
+    "assignedTo": "Field Rapid Response Team",
+    "assignedTeam": "Field Rapid Response Team",
+    "linkedComplaintIds": [
+      "d8b8dc89-3e6f-4053-8ebc-2e6bfebb60b8"
+    ],
+    "linkedCount": 1,
+    "internalNotes": [
+      {
+        "id": "a8246e9d-9959-4e4c-a9e0-a57458f0dca6",
+        "note": "Ground inspection scheduled for 10:00 AM.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-28T08:53:39.284Z"
+      },
+      {
+        "id": "12800e5f-7fd7-49ba-8e7d-bc98e896d96d",
+        "note": "CONFIDENTIAL: Contractor penalized for negligence during trench excavation.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-28T08:53:39.462Z"
+      }
+    ],
+    "publicUpdates": [
+      {
+        "id": "30c89324-a004-4af6-b9d4-0274c7655e99",
+        "message": "Repairs completed on main line. Secondary line flushing in progress.",
+        "publishedBy": "Aqua Administrator",
+        "publishedAt": "2026-10-28T08:53:39.492Z"
+      }
+    ],
+    "activityTimeline": [
+      {
+        "id": "8b6f701e-9af3-4908-bc7a-7f92b9e8784c",
+        "action": "Issue Created",
+        "details": "Community issue \"Model Town Water Main Rupture\" initialized by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:53:39.284Z"
+      },
+      {
+        "id": "8375e6af-fd4a-48fa-8787-4dbe2a4add1a",
+        "action": "Investigation Note Added",
+        "details": "Initial internal assessment recorded.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:53:39.284Z"
+      },
+      {
+        "id": "016695d5-5a42-4068-a43a-aa5ce9c5e172",
+        "action": "Related Complaints Linked",
+        "details": "1 citizen complaint(s) linked under this common issue.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:53:39.285Z"
+      },
+      {
+        "id": "e1866520-e880-4639-9e49-b6c16f313d93",
+        "action": "Complaints Linked",
+        "details": "1 complaint(s) (CMP-1072) linked by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:53:39.323Z"
+      },
+      {
+        "id": "aff40121-5381-4eb6-99fa-7215fe27e4f1",
+        "action": "Complaint Unlinked",
+        "details": "Complaint CMP-1072 unlinked by Aqua Administrator. Reason: \"Investigated and determined to be isolated internal building plumbing issue, unrelated to main water conduit.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:53:39.368Z"
+      },
+      {
+        "id": "055d037e-b695-4f90-89da-11bfa2b98364",
+        "action": "Status Transition to Under Investigation",
+        "details": "Status advanced from New to Under Investigation.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:53:39.399Z"
+      },
+      {
+        "id": "f2170a4c-fc09-4d96-bec6-57116c95bf14",
+        "action": "Issue Resolved",
+        "details": "Resolution summary recorded: \"Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:53:39.418Z"
+      },
+      {
+        "id": "b0ce66cb-a2ad-4d26-8971-a1a0bfb24539",
+        "action": "Issue Reopened",
+        "details": "Reopened by Aqua Administrator. Reason: \"Secondary micro-leak reported 15 meters downstream.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:53:39.446Z"
+      },
+      {
+        "id": "7f215827-f317-47af-8c95-bfa8cd08648b",
+        "action": "Internal Note Added",
+        "details": "Staff investigation note recorded by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:53:39.462Z"
+      },
+      {
+        "id": "5ff4d3e2-7677-479c-82a5-edc7d46d451c",
+        "action": "Public Progress Update Published",
+        "details": "Official update shared with affected citizens: \"Repairs completed on main line. Secondary line flushing in progress.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T08:53:39.492Z"
+      }
+    ],
+    "resolutionSummary": "Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.",
+    "resolvedBy": "Aqua Administrator",
+    "resolvedAt": "2026-10-28T08:53:39.418Z",
+    "reopenHistory": [
+      {
+        "reason": "Secondary micro-leak reported 15 meters downstream.",
+        "reopenedBy": "Aqua Administrator",
+        "reopenedAt": "2026-10-28T08:53:39.446Z"
+      }
+    ],
+    "createdAt": "2026-10-28T08:53:39.285Z",
+    "updatedAt": "2026-10-28T08:53:39.493Z"
+  },
+  {
+    "_id": "37f5acac-de30-4278-b6f6-b027a5e44e4c",
+    "issueRef": "ISS-0008",
+    "title": "Model Town Water Main Rupture",
+    "category": "Pipeline Leakage",
+    "locality": "Model Town",
+    "locationDetails": "Sector 4 Community Hall area",
+    "stationId": "",
+    "description": "Cluster of pipeline breakages causing localized flooding and pressure collapse.",
+    "priority": "High",
+    "status": "Reopened",
+    "assignedTo": "Field Rapid Response Team",
+    "assignedTeam": "Field Rapid Response Team",
+    "linkedComplaintIds": [
+      "1c22d5cc-7af4-4a07-8e27-b9d39789e0f8"
+    ],
+    "linkedCount": 1,
+    "internalNotes": [
+      {
+        "id": "c1c40ee7-963e-4373-b317-82c3b3989de8",
+        "note": "Ground inspection scheduled for 10:00 AM.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-28T10:15:41.096Z"
+      },
+      {
+        "id": "91fdc469-4b37-462b-97f7-988de314d912",
+        "note": "CONFIDENTIAL: Contractor penalized for negligence during trench excavation.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-28T10:15:41.178Z"
+      }
+    ],
+    "publicUpdates": [
+      {
+        "id": "a99c45a6-c980-4667-9134-74bcc7bfafe1",
+        "message": "Repairs completed on main line. Secondary line flushing in progress.",
+        "publishedBy": "Aqua Administrator",
+        "publishedAt": "2026-10-28T10:15:41.188Z"
+      }
+    ],
+    "activityTimeline": [
+      {
+        "id": "816b2871-d132-42ed-b280-4fde520902b4",
+        "action": "Issue Created",
+        "details": "Community issue \"Model Town Water Main Rupture\" initialized by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:15:41.096Z"
+      },
+      {
+        "id": "9e92b525-0947-440f-a477-b3588e022d70",
+        "action": "Investigation Note Added",
+        "details": "Initial internal assessment recorded.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:15:41.096Z"
+      },
+      {
+        "id": "949da3e2-066e-4b73-9d8b-54cc8dfcb74e",
+        "action": "Related Complaints Linked",
+        "details": "1 citizen complaint(s) linked under this common issue.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:15:41.100Z"
+      },
+      {
+        "id": "f781bc24-5ccc-4c8c-8551-9d9dd04affa0",
+        "action": "Complaints Linked",
+        "details": "1 complaint(s) (CMP-1072) linked by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:15:41.122Z"
+      },
+      {
+        "id": "7166e96d-9309-428e-90c2-77fa01f9f146",
+        "action": "Complaint Unlinked",
+        "details": "Complaint CMP-1072 unlinked by Aqua Administrator. Reason: \"Investigated and determined to be isolated internal building plumbing issue, unrelated to main water conduit.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:15:41.141Z"
+      },
+      {
+        "id": "003bc99c-babb-4680-84f6-27f89110467c",
+        "action": "Status Transition to Under Investigation",
+        "details": "Status advanced from New to Under Investigation.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:15:41.150Z"
+      },
+      {
+        "id": "de6bb94f-d95c-4df3-a6de-18c936cd01e2",
+        "action": "Issue Resolved",
+        "details": "Resolution summary recorded: \"Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:15:41.157Z"
+      },
+      {
+        "id": "adcd559e-17bd-4f84-95db-577c95a192eb",
+        "action": "Issue Reopened",
+        "details": "Reopened by Aqua Administrator. Reason: \"Secondary micro-leak reported 15 meters downstream.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:15:41.170Z"
+      },
+      {
+        "id": "ad83f68b-1e5d-4827-8997-2273fbcccbe0",
+        "action": "Internal Note Added",
+        "details": "Staff investigation note recorded by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:15:41.178Z"
+      },
+      {
+        "id": "69657325-4cf6-4868-9d60-74b2c6192e8d",
+        "action": "Public Progress Update Published",
+        "details": "Official update shared with affected citizens: \"Repairs completed on main line. Secondary line flushing in progress.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:15:41.189Z"
+      }
+    ],
+    "resolutionSummary": "Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.",
+    "resolvedBy": "Aqua Administrator",
+    "resolvedAt": "2026-10-28T10:15:41.157Z",
+    "reopenHistory": [
+      {
+        "reason": "Secondary micro-leak reported 15 meters downstream.",
+        "reopenedBy": "Aqua Administrator",
+        "reopenedAt": "2026-10-28T10:15:41.170Z"
+      }
+    ],
+    "createdAt": "2026-10-28T10:15:41.100Z",
+    "updatedAt": "2026-10-28T10:15:41.189Z"
+  },
+  {
+    "_id": "0db67fdc-3f77-412c-9011-dc0bc1dedccc",
+    "issueRef": "ISS-0009",
+    "title": "Model Town Water Main Rupture",
+    "category": "Pipeline Leakage",
+    "locality": "Model Town",
+    "locationDetails": "Sector 4 Community Hall area",
+    "stationId": "",
+    "description": "Cluster of pipeline breakages causing localized flooding and pressure collapse.",
+    "priority": "High",
+    "status": "Reopened",
+    "assignedTo": "Field Rapid Response Team",
+    "assignedTeam": "Field Rapid Response Team",
+    "linkedComplaintIds": [
+      "96d7436b-762d-49a8-a0fe-4aa7fe8f6589"
+    ],
+    "linkedCount": 1,
+    "internalNotes": [
+      {
+        "id": "cf27df3f-29ea-46df-baa3-12eba4a22eef",
+        "note": "Ground inspection scheduled for 10:00 AM.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-28T10:18:03.444Z"
+      },
+      {
+        "id": "828c6ae3-0c1f-417b-9787-4c5ef0b6d06d",
+        "note": "CONFIDENTIAL: Contractor penalized for negligence during trench excavation.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-28T10:18:03.504Z"
+      }
+    ],
+    "publicUpdates": [
+      {
+        "id": "277a78db-b8ca-4414-a872-b7bde744a4c8",
+        "message": "Repairs completed on main line. Secondary line flushing in progress.",
+        "publishedBy": "Aqua Administrator",
+        "publishedAt": "2026-10-28T10:18:03.510Z"
+      }
+    ],
+    "activityTimeline": [
+      {
+        "id": "216b192d-4775-470c-848c-3ac97dea15fc",
+        "action": "Issue Created",
+        "details": "Community issue \"Model Town Water Main Rupture\" initialized by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:18:03.444Z"
+      },
+      {
+        "id": "d1637219-1321-4dde-9d4c-fce16ef14299",
+        "action": "Investigation Note Added",
+        "details": "Initial internal assessment recorded.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:18:03.444Z"
+      },
+      {
+        "id": "6e92319e-3471-48e6-beb3-2921f21f4085",
+        "action": "Related Complaints Linked",
+        "details": "1 citizen complaint(s) linked under this common issue.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:18:03.447Z"
+      },
+      {
+        "id": "0074c29a-3fe4-4793-9d6b-650f8b7559f2",
+        "action": "Complaints Linked",
+        "details": "1 complaint(s) (CMP-1072) linked by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:18:03.464Z"
+      },
+      {
+        "id": "e8826913-2a3a-486d-b114-de1916ebd692",
+        "action": "Complaint Unlinked",
+        "details": "Complaint CMP-1072 unlinked by Aqua Administrator. Reason: \"Investigated and determined to be isolated internal building plumbing issue, unrelated to main water conduit.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:18:03.477Z"
+      },
+      {
+        "id": "914610b4-b10e-49ee-aadf-2c9a5dc6a9f6",
+        "action": "Status Transition to Under Investigation",
+        "details": "Status advanced from New to Under Investigation.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:18:03.483Z"
+      },
+      {
+        "id": "14309c81-479d-41bc-9df0-eac57aa40a07",
+        "action": "Issue Resolved",
+        "details": "Resolution summary recorded: \"Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:18:03.489Z"
+      },
+      {
+        "id": "4b099721-7573-41e7-8563-179036d95f02",
+        "action": "Issue Reopened",
+        "details": "Reopened by Aqua Administrator. Reason: \"Secondary micro-leak reported 15 meters downstream.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:18:03.499Z"
+      },
+      {
+        "id": "9af7edbd-0db2-498c-9b19-ad390ce55367",
+        "action": "Internal Note Added",
+        "details": "Staff investigation note recorded by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:18:03.504Z"
+      },
+      {
+        "id": "0bbf2870-7444-46d3-948f-3d0675c2663f",
+        "action": "Public Progress Update Published",
+        "details": "Official update shared with affected citizens: \"Repairs completed on main line. Secondary line flushing in progress.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:18:03.510Z"
+      }
+    ],
+    "resolutionSummary": "Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.",
+    "resolvedBy": "Aqua Administrator",
+    "resolvedAt": "2026-10-28T10:18:03.489Z",
+    "reopenHistory": [
+      {
+        "reason": "Secondary micro-leak reported 15 meters downstream.",
+        "reopenedBy": "Aqua Administrator",
+        "reopenedAt": "2026-10-28T10:18:03.499Z"
+      }
+    ],
+    "createdAt": "2026-10-28T10:18:03.448Z",
+    "updatedAt": "2026-10-28T10:18:03.511Z"
+  },
+  {
+    "_id": "90d8eb95-14f7-4e95-aa81-ec11dc938beb",
+    "issueRef": "ISS-0010",
+    "title": "Model Town Water Main Rupture",
+    "category": "Pipeline Leakage",
+    "locality": "Model Town",
+    "locationDetails": "Sector 4 Community Hall area",
+    "stationId": "",
+    "description": "Cluster of pipeline breakages causing localized flooding and pressure collapse.",
+    "priority": "High",
+    "status": "Reopened",
+    "assignedTo": "Field Rapid Response Team",
+    "assignedTeam": "Field Rapid Response Team",
+    "linkedComplaintIds": [
+      "e836cbcf-6ac5-4ead-8ce6-5963fd897b81"
+    ],
+    "linkedCount": 1,
+    "internalNotes": [
+      {
+        "id": "9d04f5ac-93dd-40f4-933f-b453fde3b174",
+        "note": "Ground inspection scheduled for 10:00 AM.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-28T10:19:47.584Z"
+      },
+      {
+        "id": "326313b3-81b6-4dba-8977-1ed09f8a8616",
+        "note": "CONFIDENTIAL: Contractor penalized for negligence during trench excavation.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-28T10:19:47.654Z"
+      }
+    ],
+    "publicUpdates": [
+      {
+        "id": "b8eccb28-1b33-4e54-a2bd-d3e10d12a530",
+        "message": "Repairs completed on main line. Secondary line flushing in progress.",
+        "publishedBy": "Aqua Administrator",
+        "publishedAt": "2026-10-28T10:19:47.662Z"
+      }
+    ],
+    "activityTimeline": [
+      {
+        "id": "577fbf8b-874e-4da6-8b3a-452d7737bef8",
+        "action": "Issue Created",
+        "details": "Community issue \"Model Town Water Main Rupture\" initialized by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:19:47.584Z"
+      },
+      {
+        "id": "2497bbd7-3236-45b8-977f-da2ea398794e",
+        "action": "Investigation Note Added",
+        "details": "Initial internal assessment recorded.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:19:47.584Z"
+      },
+      {
+        "id": "e5bc5b2d-34a3-4792-b3de-7594aeee06b3",
+        "action": "Related Complaints Linked",
+        "details": "1 citizen complaint(s) linked under this common issue.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:19:47.586Z"
+      },
+      {
+        "id": "cb352a9e-4c6d-4989-9de5-74f2b07eb417",
+        "action": "Complaints Linked",
+        "details": "1 complaint(s) (CMP-1072) linked by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:19:47.606Z"
+      },
+      {
+        "id": "9ca10e23-3bf8-42bd-a2a9-2803b10f7ae1",
+        "action": "Complaint Unlinked",
+        "details": "Complaint CMP-1072 unlinked by Aqua Administrator. Reason: \"Investigated and determined to be isolated internal building plumbing issue, unrelated to main water conduit.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:19:47.622Z"
+      },
+      {
+        "id": "15d4ee6b-ddba-43d7-90dc-e4da5730cb3b",
+        "action": "Status Transition to Under Investigation",
+        "details": "Status advanced from New to Under Investigation.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:19:47.632Z"
+      },
+      {
+        "id": "7ed6f24f-1d54-4ebf-b32c-45f0d1b7e775",
+        "action": "Issue Resolved",
+        "details": "Resolution summary recorded: \"Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:19:47.639Z"
+      },
+      {
+        "id": "36d09915-f723-4ac0-b77b-461e95a4c50e",
+        "action": "Issue Reopened",
+        "details": "Reopened by Aqua Administrator. Reason: \"Secondary micro-leak reported 15 meters downstream.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:19:47.648Z"
+      },
+      {
+        "id": "57f2a46f-4d7e-4c06-9b19-24540e90e721",
+        "action": "Internal Note Added",
+        "details": "Staff investigation note recorded by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:19:47.654Z"
+      },
+      {
+        "id": "8b55d905-a892-483b-ab6f-d7890217fa79",
+        "action": "Public Progress Update Published",
+        "details": "Official update shared with affected citizens: \"Repairs completed on main line. Secondary line flushing in progress.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:19:47.662Z"
+      }
+    ],
+    "resolutionSummary": "Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.",
+    "resolvedBy": "Aqua Administrator",
+    "resolvedAt": "2026-10-28T10:19:47.639Z",
+    "reopenHistory": [
+      {
+        "reason": "Secondary micro-leak reported 15 meters downstream.",
+        "reopenedBy": "Aqua Administrator",
+        "reopenedAt": "2026-10-28T10:19:47.648Z"
+      }
+    ],
+    "createdAt": "2026-10-28T10:19:47.587Z",
+    "updatedAt": "2026-10-28T10:19:47.663Z"
+  },
+  {
+    "_id": "db31e348-71df-4f71-a984-73cb13e58d2d",
+    "issueRef": "ISS-0011",
+    "title": "Model Town Water Main Rupture",
+    "category": "Pipeline Leakage",
+    "locality": "Model Town",
+    "locationDetails": "Sector 4 Community Hall area",
+    "stationId": "",
+    "description": "Cluster of pipeline breakages causing localized flooding and pressure collapse.",
+    "priority": "High",
+    "status": "Reopened",
+    "assignedTo": "Field Rapid Response Team",
+    "assignedTeam": "Field Rapid Response Team",
+    "linkedComplaintIds": [
+      "a0efba61-81ef-4402-9560-3934d7ca8766"
+    ],
+    "linkedCount": 1,
+    "internalNotes": [
+      {
+        "id": "badcd818-9e44-4e8c-8169-43c2bbb97307",
+        "note": "Ground inspection scheduled for 10:00 AM.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-28T10:37:42.034Z"
+      },
+      {
+        "id": "4b4db3aa-bde7-45e0-b1ed-7a8c1c5e895d",
+        "note": "CONFIDENTIAL: Contractor penalized for negligence during trench excavation.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-28T10:37:42.142Z"
+      }
+    ],
+    "publicUpdates": [
+      {
+        "id": "b7b0b959-27fb-40fc-8ad0-5cc8b9aa7847",
+        "message": "Repairs completed on main line. Secondary line flushing in progress.",
+        "publishedBy": "Aqua Administrator",
+        "publishedAt": "2026-10-28T10:37:42.156Z"
+      }
+    ],
+    "activityTimeline": [
+      {
+        "id": "a85be5a8-83b5-4ccc-a177-339c76b1679d",
+        "action": "Issue Created",
+        "details": "Community issue \"Model Town Water Main Rupture\" initialized by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:37:42.034Z"
+      },
+      {
+        "id": "3ea3d351-b4a7-4d25-97f4-2f70a0d72615",
+        "action": "Investigation Note Added",
+        "details": "Initial internal assessment recorded.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:37:42.034Z"
+      },
+      {
+        "id": "b167820f-e8ce-400a-b6cf-832aacec9fa1",
+        "action": "Related Complaints Linked",
+        "details": "1 citizen complaint(s) linked under this common issue.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:37:42.040Z"
+      },
+      {
+        "id": "cb01bde6-899f-4ee0-b8f6-1e4ec3f84771",
+        "action": "Complaints Linked",
+        "details": "1 complaint(s) (CMP-1072) linked by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:37:42.069Z"
+      },
+      {
+        "id": "ecc1a00b-8687-47ae-a51b-818e8af2f471",
+        "action": "Complaint Unlinked",
+        "details": "Complaint CMP-1072 unlinked by Aqua Administrator. Reason: \"Investigated and determined to be isolated internal building plumbing issue, unrelated to main water conduit.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:37:42.099Z"
+      },
+      {
+        "id": "6f239acb-ba33-4aa5-b692-d2bb7f0ff902",
+        "action": "Status Transition to Under Investigation",
+        "details": "Status advanced from New to Under Investigation.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:37:42.109Z"
+      },
+      {
+        "id": "fbe88e82-1904-4a39-ad80-4a3bc324a93a",
+        "action": "Issue Resolved",
+        "details": "Resolution summary recorded: \"Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:37:42.120Z"
+      },
+      {
+        "id": "d06bbce9-9278-43ab-915a-a4bcdd98d067",
+        "action": "Issue Reopened",
+        "details": "Reopened by Aqua Administrator. Reason: \"Secondary micro-leak reported 15 meters downstream.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:37:42.134Z"
+      },
+      {
+        "id": "17edd924-768a-41f3-b476-27d4fa9c8557",
+        "action": "Internal Note Added",
+        "details": "Staff investigation note recorded by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:37:42.142Z"
+      },
+      {
+        "id": "746ccbf7-b02b-4fb5-a5bf-7d9cfe8f8526",
+        "action": "Public Progress Update Published",
+        "details": "Official update shared with affected citizens: \"Repairs completed on main line. Secondary line flushing in progress.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:37:42.156Z"
+      }
+    ],
+    "resolutionSummary": "Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.",
+    "resolvedBy": "Aqua Administrator",
+    "resolvedAt": "2026-10-28T10:37:42.120Z",
+    "reopenHistory": [
+      {
+        "reason": "Secondary micro-leak reported 15 meters downstream.",
+        "reopenedBy": "Aqua Administrator",
+        "reopenedAt": "2026-10-28T10:37:42.134Z"
+      }
+    ],
+    "createdAt": "2026-10-28T10:37:42.042Z",
+    "updatedAt": "2026-10-28T10:37:42.157Z"
+  },
+  {
+    "_id": "07f76791-359d-4d31-85d0-98bfa6358a71",
+    "issueRef": "ISS-0012",
+    "title": "Model Town Water Main Rupture",
+    "category": "Pipeline Leakage",
+    "locality": "Model Town",
+    "locationDetails": "Sector 4 Community Hall area",
+    "stationId": "",
+    "description": "Cluster of pipeline breakages causing localized flooding and pressure collapse.",
+    "priority": "High",
+    "status": "Reopened",
+    "assignedTo": "Field Rapid Response Team",
+    "assignedTeam": "Field Rapid Response Team",
+    "linkedComplaintIds": [
+      "9094c8bd-faed-4e2a-bfc5-f86b720e4a7a"
+    ],
+    "linkedCount": 1,
+    "internalNotes": [
+      {
+        "id": "38a671ab-2da0-40d1-827b-f6a4d7ea8370",
+        "note": "Ground inspection scheduled for 10:00 AM.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-28T10:44:36.554Z"
+      },
+      {
+        "id": "6ffbf40c-72d9-4a2f-905c-b83ab17e635a",
+        "note": "CONFIDENTIAL: Contractor penalized for negligence during trench excavation.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-28T10:44:36.690Z"
+      }
+    ],
+    "publicUpdates": [
+      {
+        "id": "3de5f091-0333-45eb-97d3-95e0ac1c8942",
+        "message": "Repairs completed on main line. Secondary line flushing in progress.",
+        "publishedBy": "Aqua Administrator",
+        "publishedAt": "2026-10-28T10:44:36.706Z"
+      }
+    ],
+    "activityTimeline": [
+      {
+        "id": "20b3c43f-687c-4583-a12e-683c5a9771b9",
+        "action": "Issue Created",
+        "details": "Community issue \"Model Town Water Main Rupture\" initialized by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:44:36.554Z"
+      },
+      {
+        "id": "34a5c27c-9de8-474a-a0ff-b8424b661dde",
+        "action": "Investigation Note Added",
+        "details": "Initial internal assessment recorded.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:44:36.554Z"
+      },
+      {
+        "id": "0a7a5512-2ed6-44e7-9548-2df50d8c0c64",
+        "action": "Related Complaints Linked",
+        "details": "1 citizen complaint(s) linked under this common issue.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:44:36.561Z"
+      },
+      {
+        "id": "43630b13-bf2e-41e3-a115-72eeee5b7888",
+        "action": "Complaints Linked",
+        "details": "1 complaint(s) (CMP-1072) linked by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:44:36.613Z"
+      },
+      {
+        "id": "c8fc3a20-afa2-4f9f-bc5a-057997e8c9d9",
+        "action": "Complaint Unlinked",
+        "details": "Complaint CMP-1072 unlinked by Aqua Administrator. Reason: \"Investigated and determined to be isolated internal building plumbing issue, unrelated to main water conduit.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:44:36.639Z"
+      },
+      {
+        "id": "09e0ca34-c0dd-49fb-94c6-58167796648a",
+        "action": "Status Transition to Under Investigation",
+        "details": "Status advanced from New to Under Investigation.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:44:36.650Z"
+      },
+      {
+        "id": "9350b5e5-55a6-49dc-82d2-34895d2d172d",
+        "action": "Issue Resolved",
+        "details": "Resolution summary recorded: \"Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:44:36.661Z"
+      },
+      {
+        "id": "037d1bf4-060e-4ce5-bf2d-635ebf4d3432",
+        "action": "Issue Reopened",
+        "details": "Reopened by Aqua Administrator. Reason: \"Secondary micro-leak reported 15 meters downstream.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:44:36.677Z"
+      },
+      {
+        "id": "8532b9ce-e54d-44d8-9a1f-748ac05bb042",
+        "action": "Internal Note Added",
+        "details": "Staff investigation note recorded by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:44:36.690Z"
+      },
+      {
+        "id": "faa52647-2502-4d53-a18e-8826bd674ce4",
+        "action": "Public Progress Update Published",
+        "details": "Official update shared with affected citizens: \"Repairs completed on main line. Secondary line flushing in progress.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-28T10:44:36.706Z"
+      }
+    ],
+    "resolutionSummary": "Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.",
+    "resolvedBy": "Aqua Administrator",
+    "resolvedAt": "2026-10-28T10:44:36.661Z",
+    "reopenHistory": [
+      {
+        "reason": "Secondary micro-leak reported 15 meters downstream.",
+        "reopenedBy": "Aqua Administrator",
+        "reopenedAt": "2026-10-28T10:44:36.677Z"
+      }
+    ],
+    "createdAt": "2026-10-28T10:44:36.562Z",
+    "updatedAt": "2026-10-28T10:44:36.707Z"
+  },
+  {
+    "_id": "5026f02c-e7d3-4bff-95e3-0b221a23252a",
+    "issueRef": "ISS-0013",
+    "title": "Model Town Water Main Rupture",
+    "category": "Pipeline Leakage",
+    "locality": "Model Town",
+    "locationDetails": "Sector 4 Community Hall area",
+    "stationId": "",
+    "description": "Cluster of pipeline breakages causing localized flooding and pressure collapse.",
+    "priority": "High",
+    "status": "Reopened",
+    "assignedTo": "Field Rapid Response Team",
+    "assignedTeam": "Field Rapid Response Team",
+    "linkedComplaintIds": [
+      "c0ce0d24-54e2-4a18-97f7-0dda9df3cf53"
+    ],
+    "linkedCount": 1,
+    "internalNotes": [
+      {
+        "id": "7f7e3dee-021a-4b6e-b20d-85bd1a668fc4",
+        "note": "Ground inspection scheduled for 10:00 AM.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-29T04:20:48.924Z"
+      },
+      {
+        "id": "8e5d6704-3049-4074-9316-f8a98a8d6b96",
+        "note": "CONFIDENTIAL: Contractor penalized for negligence during trench excavation.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-29T04:20:49.053Z"
+      }
+    ],
+    "publicUpdates": [
+      {
+        "id": "8b1d97a6-6550-46c4-9bab-3af17b988404",
+        "message": "Repairs completed on main line. Secondary line flushing in progress.",
+        "publishedBy": "Aqua Administrator",
+        "publishedAt": "2026-10-29T04:20:49.072Z"
+      }
+    ],
+    "activityTimeline": [
+      {
+        "id": "f0f2dd1c-fc22-4fca-a0bc-74c4ac903fb7",
+        "action": "Issue Created",
+        "details": "Community issue \"Model Town Water Main Rupture\" initialized by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:20:48.923Z"
+      },
+      {
+        "id": "1f25bc8e-f050-4051-8f79-21b456e11dd0",
+        "action": "Investigation Note Added",
+        "details": "Initial internal assessment recorded.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:20:48.924Z"
+      },
+      {
+        "id": "ef9daa2a-de34-41ca-8837-e74ed51a36ad",
+        "action": "Related Complaints Linked",
+        "details": "1 citizen complaint(s) linked under this common issue.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:20:48.929Z"
+      },
+      {
+        "id": "29134352-56f7-4d88-a390-3b1c1ef703ef",
+        "action": "Complaints Linked",
+        "details": "1 complaint(s) (CMP-1072) linked by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:20:48.963Z"
+      },
+      {
+        "id": "08df60a5-a6e4-4ff9-97d9-ae856ba14b0c",
+        "action": "Complaint Unlinked",
+        "details": "Complaint CMP-1072 unlinked by Aqua Administrator. Reason: \"Investigated and determined to be isolated internal building plumbing issue, unrelated to main water conduit.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:20:48.989Z"
+      },
+      {
+        "id": "8c234a62-a412-4283-b6e2-4c27fb004d7e",
+        "action": "Status Transition to Under Investigation",
+        "details": "Status advanced from New to Under Investigation.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:20:49.002Z"
+      },
+      {
+        "id": "885e08c2-3454-46ce-9a2d-f28b4d8ad3d0",
+        "action": "Issue Resolved",
+        "details": "Resolution summary recorded: \"Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:20:49.018Z"
+      },
+      {
+        "id": "e3053939-8837-42de-93b8-25cd8afe38ab",
+        "action": "Issue Reopened",
+        "details": "Reopened by Aqua Administrator. Reason: \"Secondary micro-leak reported 15 meters downstream.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:20:49.040Z"
+      },
+      {
+        "id": "739ff4bb-a9d2-4d46-9691-f80048a2bb5a",
+        "action": "Internal Note Added",
+        "details": "Staff investigation note recorded by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:20:49.053Z"
+      },
+      {
+        "id": "70dfb910-d12b-45d5-8308-18ab87098f7f",
+        "action": "Public Progress Update Published",
+        "details": "Official update shared with affected citizens: \"Repairs completed on main line. Secondary line flushing in progress.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:20:49.072Z"
+      }
+    ],
+    "resolutionSummary": "Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.",
+    "resolvedBy": "Aqua Administrator",
+    "resolvedAt": "2026-10-29T04:20:49.018Z",
+    "reopenHistory": [
+      {
+        "reason": "Secondary micro-leak reported 15 meters downstream.",
+        "reopenedBy": "Aqua Administrator",
+        "reopenedAt": "2026-10-29T04:20:49.040Z"
+      }
+    ],
+    "createdAt": "2026-10-29T04:20:48.931Z",
+    "updatedAt": "2026-10-29T04:20:49.075Z"
+  },
+  {
+    "_id": "8c0fe278-f4de-4f80-961e-5cca88e52b64",
+    "issueRef": "ISS-0014",
+    "title": "Model Town Water Main Rupture",
+    "category": "Pipeline Leakage",
+    "locality": "Model Town",
+    "locationDetails": "Sector 4 Community Hall area",
+    "stationId": "",
+    "description": "Cluster of pipeline breakages causing localized flooding and pressure collapse.",
+    "priority": "High",
+    "status": "Reopened",
+    "assignedTo": "Field Rapid Response Team",
+    "assignedTeam": "Field Rapid Response Team",
+    "linkedComplaintIds": [
+      "ff7986f2-cee4-459e-b942-e23679ff28c0"
+    ],
+    "linkedCount": 1,
+    "internalNotes": [
+      {
+        "id": "9185a491-77d4-4407-87ed-0b5ca4e6b381",
+        "note": "Ground inspection scheduled for 10:00 AM.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-29T04:28:39.285Z"
+      },
+      {
+        "id": "1b5ad07b-5ce6-4153-9bef-942739c479a3",
+        "note": "CONFIDENTIAL: Contractor penalized for negligence during trench excavation.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-29T04:28:39.393Z"
+      }
+    ],
+    "publicUpdates": [
+      {
+        "id": "a42addf1-ce26-46f6-ad1e-fcb0557b6ef7",
+        "message": "Repairs completed on main line. Secondary line flushing in progress.",
+        "publishedBy": "Aqua Administrator",
+        "publishedAt": "2026-10-29T04:28:39.408Z"
+      }
+    ],
+    "activityTimeline": [
+      {
+        "id": "4e3a7f45-17da-4b33-9471-b3b66d586b4c",
+        "action": "Issue Created",
+        "details": "Community issue \"Model Town Water Main Rupture\" initialized by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:28:39.285Z"
+      },
+      {
+        "id": "21fa86db-9976-4ae7-b686-3a5956f192e7",
+        "action": "Investigation Note Added",
+        "details": "Initial internal assessment recorded.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:28:39.285Z"
+      },
+      {
+        "id": "35e4e963-7f08-45b2-8e6e-0a6a0d6cb8ca",
+        "action": "Related Complaints Linked",
+        "details": "1 citizen complaint(s) linked under this common issue.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:28:39.289Z"
+      },
+      {
+        "id": "849a8343-fa5f-4a17-aa43-8f67d3bb7cfe",
+        "action": "Complaints Linked",
+        "details": "1 complaint(s) (CMP-1072) linked by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:28:39.317Z"
+      },
+      {
+        "id": "259cef95-66a7-4049-9844-9d1d6d307dc2",
+        "action": "Complaint Unlinked",
+        "details": "Complaint CMP-1072 unlinked by Aqua Administrator. Reason: \"Investigated and determined to be isolated internal building plumbing issue, unrelated to main water conduit.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:28:39.345Z"
+      },
+      {
+        "id": "fa9ad4d0-65cd-43cd-a962-60ed6673774e",
+        "action": "Status Transition to Under Investigation",
+        "details": "Status advanced from New to Under Investigation.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:28:39.359Z"
+      },
+      {
+        "id": "95399b67-ea04-40eb-b979-cc77b0ffaf64",
+        "action": "Issue Resolved",
+        "details": "Resolution summary recorded: \"Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:28:39.369Z"
+      },
+      {
+        "id": "5e4c90ae-bb59-49d7-8f48-87f53a009833",
+        "action": "Issue Reopened",
+        "details": "Reopened by Aqua Administrator. Reason: \"Secondary micro-leak reported 15 meters downstream.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:28:39.384Z"
+      },
+      {
+        "id": "77d2d72f-9176-4859-b5bd-11d38cc0809f",
+        "action": "Internal Note Added",
+        "details": "Staff investigation note recorded by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:28:39.393Z"
+      },
+      {
+        "id": "f598a399-e4ed-41f9-900b-eac5f4146ba5",
+        "action": "Public Progress Update Published",
+        "details": "Official update shared with affected citizens: \"Repairs completed on main line. Secondary line flushing in progress.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:28:39.408Z"
+      }
+    ],
+    "resolutionSummary": "Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.",
+    "resolvedBy": "Aqua Administrator",
+    "resolvedAt": "2026-10-29T04:28:39.369Z",
+    "reopenHistory": [
+      {
+        "reason": "Secondary micro-leak reported 15 meters downstream.",
+        "reopenedBy": "Aqua Administrator",
+        "reopenedAt": "2026-10-29T04:28:39.384Z"
+      }
+    ],
+    "createdAt": "2026-10-29T04:28:39.291Z",
+    "updatedAt": "2026-10-29T04:28:39.409Z"
+  },
+  {
+    "_id": "a6d40075-c284-4d4d-92b2-73a0dd83bcfc",
+    "issueRef": "ISS-0015",
+    "title": "Model Town Water Main Rupture",
+    "category": "Pipeline Leakage",
+    "locality": "Model Town",
+    "locationDetails": "Sector 4 Community Hall area",
+    "stationId": "",
+    "description": "Cluster of pipeline breakages causing localized flooding and pressure collapse.",
+    "priority": "High",
+    "status": "Reopened",
+    "assignedTo": "Field Rapid Response Team",
+    "assignedTeam": "Field Rapid Response Team",
+    "linkedComplaintIds": [
+      "c1bb580c-85c3-4b5e-bff1-2a26258be3f4"
+    ],
+    "linkedCount": 1,
+    "internalNotes": [
+      {
+        "id": "3ce6db10-f298-480d-b45c-13606812824a",
+        "note": "Ground inspection scheduled for 10:00 AM.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-29T04:37:08.104Z"
+      },
+      {
+        "id": "e6870db7-4cbd-45a0-846f-2725924c5d9e",
+        "note": "CONFIDENTIAL: Contractor penalized for negligence during trench excavation.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-29T04:37:08.192Z"
+      }
+    ],
+    "publicUpdates": [
+      {
+        "id": "31019193-7073-4c9b-9c2e-1d4ef04f1d99",
+        "message": "Repairs completed on main line. Secondary line flushing in progress.",
+        "publishedBy": "Aqua Administrator",
+        "publishedAt": "2026-10-29T04:37:08.203Z"
+      }
+    ],
+    "activityTimeline": [
+      {
+        "id": "b289e76e-9386-42d8-82fd-4f2343cc03bd",
+        "action": "Issue Created",
+        "details": "Community issue \"Model Town Water Main Rupture\" initialized by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:37:08.104Z"
+      },
+      {
+        "id": "10c8c6d2-a4bf-4ac5-983b-f5b9ecb0f623",
+        "action": "Investigation Note Added",
+        "details": "Initial internal assessment recorded.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:37:08.104Z"
+      },
+      {
+        "id": "0797ab0d-98a3-441c-a3fe-2dc3a821c0fb",
+        "action": "Related Complaints Linked",
+        "details": "1 citizen complaint(s) linked under this common issue.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:37:08.108Z"
+      },
+      {
+        "id": "fe7a8c0c-c657-4d84-b7f2-ca5ad7809bfa",
+        "action": "Complaints Linked",
+        "details": "1 complaint(s) (CMP-1072) linked by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:37:08.130Z"
+      },
+      {
+        "id": "4c9ae4fb-47c8-4691-9e83-71b455559015",
+        "action": "Complaint Unlinked",
+        "details": "Complaint CMP-1072 unlinked by Aqua Administrator. Reason: \"Investigated and determined to be isolated internal building plumbing issue, unrelated to main water conduit.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:37:08.150Z"
+      },
+      {
+        "id": "98be604b-d27d-4239-89ef-2b5df64af8b2",
+        "action": "Status Transition to Under Investigation",
+        "details": "Status advanced from New to Under Investigation.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:37:08.161Z"
+      },
+      {
+        "id": "2cd90f88-4dfd-4988-9328-8f0646b0a011",
+        "action": "Issue Resolved",
+        "details": "Resolution summary recorded: \"Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:37:08.170Z"
+      },
+      {
+        "id": "d26befe4-c0a8-4562-ac11-8da155f484b8",
+        "action": "Issue Reopened",
+        "details": "Reopened by Aqua Administrator. Reason: \"Secondary micro-leak reported 15 meters downstream.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:37:08.184Z"
+      },
+      {
+        "id": "cb2c0a0b-a920-4999-bde4-e010ecd68095",
+        "action": "Internal Note Added",
+        "details": "Staff investigation note recorded by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:37:08.192Z"
+      },
+      {
+        "id": "beac0d26-3390-4fe6-bdf8-2c5449d9cdb4",
+        "action": "Public Progress Update Published",
+        "details": "Official update shared with affected citizens: \"Repairs completed on main line. Secondary line flushing in progress.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:37:08.203Z"
+      }
+    ],
+    "resolutionSummary": "Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.",
+    "resolvedBy": "Aqua Administrator",
+    "resolvedAt": "2026-10-29T04:37:08.170Z",
+    "reopenHistory": [
+      {
+        "reason": "Secondary micro-leak reported 15 meters downstream.",
+        "reopenedBy": "Aqua Administrator",
+        "reopenedAt": "2026-10-29T04:37:08.184Z"
+      }
+    ],
+    "createdAt": "2026-10-29T04:37:08.109Z",
+    "updatedAt": "2026-10-29T04:37:08.205Z"
+  },
+  {
+    "_id": "5b99e60c-48d0-48d3-bd05-b774991af2ea",
+    "issueRef": "ISS-0016",
+    "title": "Model Town Water Main Rupture",
+    "category": "Pipeline Leakage",
+    "locality": "Model Town",
+    "locationDetails": "Sector 4 Community Hall area",
+    "stationId": "",
+    "description": "Cluster of pipeline breakages causing localized flooding and pressure collapse.",
+    "priority": "High",
+    "status": "Reopened",
+    "assignedTo": "Field Rapid Response Team",
+    "assignedTeam": "Field Rapid Response Team",
+    "linkedComplaintIds": [
+      "58545b0a-1051-4b81-9bb7-e220dc81fb48"
+    ],
+    "linkedCount": 1,
+    "internalNotes": [
+      {
+        "id": "806ee2e5-ecd7-482e-b06c-61fff4f8c348",
+        "note": "Ground inspection scheduled for 10:00 AM.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-29T04:48:12.398Z"
+      },
+      {
+        "id": "7e770665-937d-435c-89ff-a14814ac255e",
+        "note": "CONFIDENTIAL: Contractor penalized for negligence during trench excavation.",
+        "author": "Aqua Administrator",
+        "authorRole": "ADMIN",
+        "createdAt": "2026-10-29T04:48:12.491Z"
+      }
+    ],
+    "publicUpdates": [
+      {
+        "id": "ac062ca6-29c6-4155-a90e-f00042ad0b7c",
+        "message": "Repairs completed on main line. Secondary line flushing in progress.",
+        "publishedBy": "Aqua Administrator",
+        "publishedAt": "2026-10-29T04:48:12.500Z"
+      }
+    ],
+    "activityTimeline": [
+      {
+        "id": "4575aa2f-8a68-4244-9498-fc9852cc0916",
+        "action": "Issue Created",
+        "details": "Community issue \"Model Town Water Main Rupture\" initialized by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:48:12.398Z"
+      },
+      {
+        "id": "d58396bc-f096-4023-8ff0-597fed9678f7",
+        "action": "Investigation Note Added",
+        "details": "Initial internal assessment recorded.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:48:12.398Z"
+      },
+      {
+        "id": "a8111bdf-e36d-4317-b778-7e23e0a8d25c",
+        "action": "Related Complaints Linked",
+        "details": "1 citizen complaint(s) linked under this common issue.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:48:12.402Z"
+      },
+      {
+        "id": "609b6fc5-ecbc-4b4b-b08e-58aae83ebd6f",
+        "action": "Complaints Linked",
+        "details": "1 complaint(s) (CMP-1072) linked by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:48:12.428Z"
+      },
+      {
+        "id": "f844a046-f779-44a3-a319-3d5213b43a21",
+        "action": "Complaint Unlinked",
+        "details": "Complaint CMP-1072 unlinked by Aqua Administrator. Reason: \"Investigated and determined to be isolated internal building plumbing issue, unrelated to main water conduit.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:48:12.450Z"
+      },
+      {
+        "id": "89ced8e1-e42f-4d11-8d72-e3f6c5c780fa",
+        "action": "Status Transition to Under Investigation",
+        "details": "Status advanced from New to Under Investigation.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:48:12.461Z"
+      },
+      {
+        "id": "1ef0fe25-a78c-4331-859d-c4bdf9388faa",
+        "action": "Issue Resolved",
+        "details": "Resolution summary recorded: \"Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:48:12.471Z"
+      },
+      {
+        "id": "178c3032-2589-44e8-8912-977b3d43d761",
+        "action": "Issue Reopened",
+        "details": "Reopened by Aqua Administrator. Reason: \"Secondary micro-leak reported 15 meters downstream.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:48:12.483Z"
+      },
+      {
+        "id": "f6a8f268-98d7-4570-9b1b-07c8c7030c3d",
+        "action": "Internal Note Added",
+        "details": "Staff investigation note recorded by Aqua Administrator.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:48:12.491Z"
+      },
+      {
+        "id": "ba29f16c-9354-4396-bff1-fabba83ba639",
+        "action": "Public Progress Update Published",
+        "details": "Official update shared with affected citizens: \"Repairs completed on main line. Secondary line flushing in progress.\".",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:48:12.500Z"
+      }
+    ],
+    "resolutionSummary": "Main feeder conduit valve replaced and pressure tested at 4.2 bar. Full flow restored.",
+    "resolvedBy": "Aqua Administrator",
+    "resolvedAt": "2026-10-29T04:48:12.471Z",
+    "reopenHistory": [
+      {
+        "reason": "Secondary micro-leak reported 15 meters downstream.",
+        "reopenedBy": "Aqua Administrator",
+        "reopenedAt": "2026-10-29T04:48:12.483Z"
+      }
+    ],
+    "createdAt": "2026-10-29T04:48:12.404Z",
+    "updatedAt": "2026-10-29T04:48:12.501Z"
+  }
+]

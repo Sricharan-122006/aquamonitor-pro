@@ -53,6 +53,23 @@ async function seedInitialData() {
     });
   }
 
+  const standardUser = await UserRepo.findOne({ email: 'user@aquamonitor.in' });
+  if (!standardUser) {
+    await UserRepo.create({
+      name: 'Aqua Citizen User',
+      email: 'user@aquamonitor.in',
+      phone: '+91 98765 11111',
+      organization: 'Citizen Water Watch',
+      password: userPassword,
+      role: 'USER',
+      plan: 'FREE',
+      emailAlerts: true,
+      smsAlerts: false,
+      theme: 'light',
+      joined: '4/26/2026'
+    });
+  }
+
   const refUsers = [
     { name: 'anjali', email: 'anjali@gmail.com', joined: '4/26/2026' },
     { name: 'kirti', email: 'kirti@gmail.com', joined: '4/26/2026' },

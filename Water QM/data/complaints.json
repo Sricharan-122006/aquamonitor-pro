@@ -331,10 +331,66 @@
         "actor": "Aqua Administrator",
         "actorRole": "ADMIN",
         "timestamp": "2026-10-28T10:44:36.637Z"
+      },
+      {
+        "action": "Linked to Community Issue ISS-0013",
+        "details": "Linked by Aqua Administrator under shared issue \"Model Town Water Main Rupture\". Original tracking ID and history preserved.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:20:48.960Z"
+      },
+      {
+        "action": "Unlinked from Community Issue ISS-0013",
+        "details": "Unlinked by Aqua Administrator. Reason: \"Investigated and determined to be isolated internal building plumbing issue, unrelated to main water conduit.\". Retaining standalone complaint tracking.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:20:48.987Z"
+      },
+      {
+        "action": "Linked to Community Issue ISS-0014",
+        "details": "Linked by Aqua Administrator under shared issue \"Model Town Water Main Rupture\". Original tracking ID and history preserved.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:28:39.315Z"
+      },
+      {
+        "action": "Unlinked from Community Issue ISS-0014",
+        "details": "Unlinked by Aqua Administrator. Reason: \"Investigated and determined to be isolated internal building plumbing issue, unrelated to main water conduit.\". Retaining standalone complaint tracking.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:28:39.343Z"
+      },
+      {
+        "action": "Linked to Community Issue ISS-0015",
+        "details": "Linked by Aqua Administrator under shared issue \"Model Town Water Main Rupture\". Original tracking ID and history preserved.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:37:08.128Z"
+      },
+      {
+        "action": "Unlinked from Community Issue ISS-0015",
+        "details": "Unlinked by Aqua Administrator. Reason: \"Investigated and determined to be isolated internal building plumbing issue, unrelated to main water conduit.\". Retaining standalone complaint tracking.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:37:08.148Z"
+      },
+      {
+        "action": "Linked to Community Issue ISS-0016",
+        "details": "Linked by Aqua Administrator under shared issue \"Model Town Water Main Rupture\". Original tracking ID and history preserved.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:48:12.426Z"
+      },
+      {
+        "action": "Unlinked from Community Issue ISS-0016",
+        "details": "Unlinked by Aqua Administrator. Reason: \"Investigated and determined to be isolated internal building plumbing issue, unrelated to main water conduit.\". Retaining standalone complaint tracking.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:48:12.449Z"
       }
     ],
     "createdAt": "2026-10-28T08:37:40.146Z",
-    "updatedAt": "2026-10-28T10:44:36.638Z"
+    "updatedAt": "2026-10-29T04:48:12.450Z"
   },
   {
     "_id": "2ae82c1a-55bb-4e25-add4-50a99031e516",
@@ -792,5 +848,153 @@
     "resolvedAt": null,
     "createdAt": "2026-10-28T10:44:36.399Z",
     "updatedAt": "2026-10-28T10:44:36.560Z"
+  },
+  {
+    "_id": "c0ce0d24-54e2-4a18-97f7-0dda9df3cf53",
+    "trackingId": "CMP-1093",
+    "userId": null,
+    "submitterName": "Priya Sharma",
+    "submitterEmail": "priya.sharma@example.com",
+    "submitterPhone": "+91 98765 11111",
+    "category": "Pipeline Leakage",
+    "locality": "Model Town",
+    "landmark": "Opposite Community Hall",
+    "pincode": "141002",
+    "stationId": "",
+    "description": "Underground pipeline rupture leaking continuous clean water onto street.",
+    "status": "Submitted",
+    "priority": "Medium",
+    "communityIssueRef": "ISS-0013",
+    "auditLog": [
+      {
+        "action": "Complaint Registered",
+        "details": "Complaint received and logged in system with individual tracking identity.",
+        "actor": "Priya Sharma",
+        "actorRole": "CITIZEN",
+        "timestamp": "2026-10-29T04:20:48.784Z"
+      },
+      {
+        "action": "Linked to Community Issue ISS-0013",
+        "details": "Grouped under common community issue \"Model Town Water Main Rupture\". Individual tracking preserved.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:20:48.927Z"
+      }
+    ],
+    "resolutionSummary": "",
+    "resolvedAt": null,
+    "createdAt": "2026-10-29T04:20:48.786Z",
+    "updatedAt": "2026-10-29T04:20:48.928Z"
+  },
+  {
+    "_id": "ff7986f2-cee4-459e-b942-e23679ff28c0",
+    "trackingId": "CMP-1094",
+    "userId": null,
+    "submitterName": "Priya Sharma",
+    "submitterEmail": "priya.sharma@example.com",
+    "submitterPhone": "+91 98765 11111",
+    "category": "Pipeline Leakage",
+    "locality": "Model Town",
+    "landmark": "Opposite Community Hall",
+    "pincode": "141002",
+    "stationId": "",
+    "description": "Underground pipeline rupture leaking continuous clean water onto street.",
+    "status": "Submitted",
+    "priority": "Medium",
+    "communityIssueRef": "ISS-0014",
+    "auditLog": [
+      {
+        "action": "Complaint Registered",
+        "details": "Complaint received and logged in system with individual tracking identity.",
+        "actor": "Priya Sharma",
+        "actorRole": "CITIZEN",
+        "timestamp": "2026-10-29T04:28:39.132Z"
+      },
+      {
+        "action": "Linked to Community Issue ISS-0014",
+        "details": "Grouped under common community issue \"Model Town Water Main Rupture\". Individual tracking preserved.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:28:39.287Z"
+      }
+    ],
+    "resolutionSummary": "",
+    "resolvedAt": null,
+    "createdAt": "2026-10-29T04:28:39.133Z",
+    "updatedAt": "2026-10-29T04:28:39.289Z"
+  },
+  {
+    "_id": "c1bb580c-85c3-4b5e-bff1-2a26258be3f4",
+    "trackingId": "CMP-1095",
+    "userId": null,
+    "submitterName": "Priya Sharma",
+    "submitterEmail": "priya.sharma@example.com",
+    "submitterPhone": "+91 98765 11111",
+    "category": "Pipeline Leakage",
+    "locality": "Model Town",
+    "landmark": "Opposite Community Hall",
+    "pincode": "141002",
+    "stationId": "",
+    "description": "Underground pipeline rupture leaking continuous clean water onto street.",
+    "status": "Submitted",
+    "priority": "Medium",
+    "communityIssueRef": "ISS-0015",
+    "auditLog": [
+      {
+        "action": "Complaint Registered",
+        "details": "Complaint received and logged in system with individual tracking identity.",
+        "actor": "Priya Sharma",
+        "actorRole": "CITIZEN",
+        "timestamp": "2026-10-29T04:37:07.975Z"
+      },
+      {
+        "action": "Linked to Community Issue ISS-0015",
+        "details": "Grouped under common community issue \"Model Town Water Main Rupture\". Individual tracking preserved.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:37:08.106Z"
+      }
+    ],
+    "resolutionSummary": "",
+    "resolvedAt": null,
+    "createdAt": "2026-10-29T04:37:07.976Z",
+    "updatedAt": "2026-10-29T04:37:08.107Z"
+  },
+  {
+    "_id": "58545b0a-1051-4b81-9bb7-e220dc81fb48",
+    "trackingId": "CMP-1096",
+    "userId": null,
+    "submitterName": "Priya Sharma",
+    "submitterEmail": "priya.sharma@example.com",
+    "submitterPhone": "+91 98765 11111",
+    "category": "Pipeline Leakage",
+    "locality": "Model Town",
+    "landmark": "Opposite Community Hall",
+    "pincode": "141002",
+    "stationId": "",
+    "description": "Underground pipeline rupture leaking continuous clean water onto street.",
+    "status": "Submitted",
+    "priority": "Medium",
+    "communityIssueRef": "ISS-0016",
+    "auditLog": [
+      {
+        "action": "Complaint Registered",
+        "details": "Complaint received and logged in system with individual tracking identity.",
+        "actor": "Priya Sharma",
+        "actorRole": "CITIZEN",
+        "timestamp": "2026-10-29T04:48:12.268Z"
+      },
+      {
+        "action": "Linked to Community Issue ISS-0016",
+        "details": "Grouped under common community issue \"Model Town Water Main Rupture\". Individual tracking preserved.",
+        "actor": "Aqua Administrator",
+        "actorRole": "ADMIN",
+        "timestamp": "2026-10-29T04:48:12.400Z"
+      }
+    ],
+    "resolutionSummary": "",
+    "resolvedAt": null,
+    "createdAt": "2026-10-29T04:48:12.270Z",
+    "updatedAt": "2026-10-29T04:48:12.401Z"
   }
 ]

@@ -29,13 +29,56 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// Restore original client URI from Vercel Edge proxy/rewrite headers
+app.use((req, res, next) => {
+  const originalUri = req.headers['x-forwarded-uri'] || 
+                      req.headers['x-matched-path'] || 
+                      req.originalUrl || 
+                      req.url;
+
+  if (originalUri && originalUri !== req.url) {
+    req.url = originalUri;
+  }
+  next();
+});
+
+// Serverless cold-start lifecycle initialization
+let isDbInitialized = false;
+let initDbPromise = null;
+
+async function serverlessInitMiddleware(req, res, next) {
+  if (!isDbInitialized) {
+    if (!initDbPromise) {
+      initDbPromise = (async () => {
+        try {
+          await connectDB();
+          await seedInitialData();
+          isDbInitialized = true;
+        } catch (err) {
+          console.error('[Serverless Init Error]', err);
+        }
+      })();
+    }
+    await initDbPromise;
+  }
+  next();
+}
+app.use(serverlessInitMiddleware);
+
 // Serve Static Frontend Assets (with no-cache headers for instant updates)
 app.use(express.static(path.join(__dirname, 'public'), {
   setHeaders: (res) => {
     res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
   }
 }));
-app.use('/reports_files', express.static(path.join(__dirname, 'public', 'reports_files')));
+const isServerless = !!(process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME);
+const REPORTS_DIR = isServerless 
+  ? path.join('/tmp', 'reports_files')
+  : path.join(__dirname, 'public', 'reports_files');
+if (!fs.existsSync(REPORTS_DIR)) {
+  fs.mkdirSync(REPORTS_DIR, { recursive: true });
+}
+app.use('/reports_files', express.static(REPORTS_DIR));
 
 // API Routes
 app.use('/api/auth', authRoutes);
@@ -86,6 +129,7 @@ async function startServer() {
   try {
     await connectDB();
     await seedInitialData();
+    isDbInitialized = true;
 
     app.listen(PORT, () => {
       console.log(`=======================================================`);

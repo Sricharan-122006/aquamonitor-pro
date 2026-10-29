@@ -1,0 +1,762 @@
+/* ==========================================================================
+   JalSaathi Hardware Simulation Lab - Stylesheet
+   Designed for AquaMonitor Pro Design System
+   ========================================================================== */
+
+.hardware-lab-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+
+/* Header & Disclaimer Banner */
+.hardware-lab-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.75rem;
+  box-shadow: var(--shadow-bento);
+}
+
+.lab-title-group h2 {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin: 0;
+}
+
+.lab-title-group p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: 0.25rem 0 0 0;
+}
+
+.lab-mode-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--apple-blue-light);
+  color: var(--apple-blue);
+  padding: 0.35rem 0.85rem;
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  border: 1px solid rgba(0, 113, 227, 0.2);
+}
+
+.lab-mode-pill.running {
+  background: var(--apple-green-bg);
+  color: var(--apple-green-text);
+  border-color: rgba(52, 199, 89, 0.3);
+}
+
+.lab-mode-pill.paused {
+  background: var(--apple-amber-bg);
+  color: var(--apple-amber-text);
+  border-color: rgba(255, 149, 0, 0.3);
+}
+
+.lab-badge-simulated {
+  background: rgba(245, 158, 11, 0.15);
+  color: #b45309;
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  padding: 0.3rem 0.75rem;
+  border-radius: var(--radius-full);
+  font-size: 0.72rem;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+[data-theme="dark"] .lab-badge-simulated {
+  background: rgba(245, 158, 11, 0.2);
+  color: #fde68a;
+  border-color: rgba(245, 158, 11, 0.4);
+}
+
+/* Simulation Disclaimer Bar */
+.lab-disclaimer-bar {
+  background: rgba(14, 165, 233, 0.08);
+  border: 1px solid rgba(14, 165, 233, 0.22);
+  border-radius: var(--radius-md);
+  padding: 0.75rem 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  font-size: 0.82rem;
+  color: var(--text-main);
+}
+
+.lab-disclaimer-icon {
+  font-size: 1.25rem;
+  flex-shrink: 0;
+}
+
+/* Toolbar Controls */
+.lab-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 0.85rem 1.25rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.lab-toolbar-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.btn-lab {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.5rem 0.95rem;
+  border-radius: var(--radius-xs);
+  font-size: 0.825rem;
+  font-weight: 600;
+  border: 1px solid var(--border-color);
+  background: var(--bg-card-secondary);
+  color: var(--text-main);
+  cursor: pointer;
+  transition: all 0.18s ease;
+  user-select: none;
+}
+
+.btn-lab:hover {
+  background: var(--border-hover);
+  transform: translateY(-1px);
+}
+
+.btn-lab:active {
+  transform: translateY(0);
+}
+
+.btn-lab.primary {
+  background: var(--apple-blue);
+  color: #ffffff;
+  border-color: var(--apple-blue);
+}
+
+.btn-lab.primary:hover {
+  background: var(--apple-blue-hover);
+}
+
+.btn-lab.active-toggle {
+  background: var(--apple-blue-light);
+  color: var(--apple-blue);
+  border-color: var(--apple-blue);
+}
+
+/* 3D Workbench & Inspector Workspace Layout */
+.lab-workspace {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 1.25rem;
+  height: 600px;
+}
+
+@media (max-width: 1200px) {
+  .lab-workspace {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+}
+
+/* 3D Viewport Area */
+.lab-viewport-card {
+  position: relative;
+  background: #11141a;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-color);
+  overflow: hidden;
+  box-shadow: var(--shadow-bento);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 480px;
+}
+
+.lab-viewport-canvas-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  cursor: grab;
+}
+
+.lab-viewport-canvas-container:active {
+  cursor: grabbing;
+}
+
+#hardwareLabCanvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* 3D Canvas Overlays */
+.lab-viewport-overlay {
+  position: absolute;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.overlay-top-left {
+  top: 1rem;
+  left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.overlay-top-right {
+  top: 1rem;
+  right: 1rem;
+  pointer-events: auto;
+}
+
+.overlay-bottom-left {
+  bottom: 1rem;
+  left: 1rem;
+  background: rgba(17, 20, 26, 0.88);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-sm);
+  padding: 0.65rem 0.95rem;
+  color: #f1f5f9;
+  font-size: 0.75rem;
+  pointer-events: auto;
+  max-width: 320px;
+}
+
+.overlay-bottom-right {
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  pointer-events: auto;
+}
+
+/* Wire Legend */
+.wire-legend-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.7rem;
+  color: #94a3b8;
+  margin-bottom: 0.45rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wire-legend-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.35rem 0.75rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.72rem;
+  color: #cbd5e1;
+}
+
+.color-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+/* 3D Floating Component Labels */
+.component-3d-label {
+  position: absolute;
+  transform: translate(-50%, -100%);
+  background: rgba(15, 23, 42, 0.88);
+  color: #ffffff;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  pointer-events: auto;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  white-space: nowrap;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  transition: all 0.15s ease;
+  user-select: none;
+}
+
+.component-3d-label:hover {
+  background: var(--apple-blue);
+  border-color: #ffffff;
+  transform: translate(-50%, -115%) scale(1.08);
+}
+
+.component-3d-label::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 4px 4px 0 4px;
+  border-style: solid;
+  border-color: rgba(15, 23, 42, 0.88) transparent transparent transparent;
+}
+
+/* Right-Side Component Inspector Panel */
+.lab-inspector-panel {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-bento);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.inspector-header {
+  padding: 1.15rem 1.35rem;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--bg-card-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inspector-header h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.inspector-body {
+  padding: 1.25rem 1.35rem;
+  overflow-y: auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.selected-comp-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-full);
+  background: var(--apple-blue-light);
+  color: var(--apple-blue);
+  display: inline-block;
+  margin-bottom: 0.25rem;
+}
+
+.selected-comp-title {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--text-main);
+  margin: 0 0 0.4rem 0;
+}
+
+.selected-comp-desc {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.inspector-field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  background: var(--bg-card-secondary);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  padding: 0.85rem 1rem;
+}
+
+.inspector-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-light);
+}
+
+.inspector-value {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.inspector-value.live {
+  color: var(--apple-green-text);
+  font-family: monospace;
+  font-size: 0.95rem;
+}
+
+.pinout-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.pinout-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dashed var(--border-light);
+}
+
+.pin-name {
+  font-family: monospace;
+  font-weight: 700;
+  color: var(--apple-blue);
+  background: var(--apple-blue-light);
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
+.pin-target {
+  color: var(--text-muted);
+}
+
+/* Technical Note Box */
+.tech-accuracy-note {
+  background: rgba(245, 158, 11, 0.08);
+  border: 1px solid rgba(245, 158, 11, 0.25);
+  border-radius: var(--radius-sm);
+  padding: 0.75rem 0.95rem;
+  font-size: 0.78rem;
+  color: var(--text-main);
+  line-height: 1.45;
+}
+
+.tech-accuracy-note strong {
+  color: #b45309;
+}
+
+/* Secondary Panels (Bottom Grid) */
+.lab-bottom-grid {
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  gap: 1.25rem;
+}
+
+@media (max-width: 1100px) {
+  .lab-bottom-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 20x4 LCD Simulator Card */
+.lcd-simulator-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 1.35rem;
+  box-shadow: var(--shadow-bento);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.lcd-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lcd-card-header h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Realistic HD44780 20x4 LCD Bezel */
+.lcd-bezel {
+  background: #1e293b;
+  border-radius: 10px;
+  padding: 14px 18px;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.7), 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: 3px solid #0f172a;
+}
+
+.lcd-screen {
+  background: #739e24; /* Authentic yellow-green LCD backlight */
+  color: #122103;     /* Dark pixel matrix text */
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  font-size: 1.05rem;
+  line-height: 1.45;
+  letter-spacing: 0.12em;
+  padding: 12px 14px;
+  border-radius: 4px;
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.25);
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0.15);
+  user-select: none;
+  min-height: 108px;
+}
+
+.lcd-line {
+  white-space: pre;
+  overflow: hidden;
+  display: block;
+}
+
+/* 4 Hardware Navigation Buttons Control Box */
+.hw-button-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.hw-button-group-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-light);
+}
+
+.hw-buttons-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+
+.btn-hw-push {
+  background: var(--bg-card-secondary);
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  padding: 0.65rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-main);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  transition: all 0.12s ease;
+  user-select: none;
+}
+
+.btn-hw-push:hover {
+  background: var(--apple-blue-light);
+  border-color: var(--apple-blue);
+  color: var(--apple-blue);
+}
+
+.btn-hw-push:active, .btn-hw-push.pressed {
+  transform: translateY(2px);
+  background: var(--apple-blue);
+  color: #ffffff;
+  border-color: var(--apple-blue);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Sensor Controls & Data Logging Grid */
+.sensor-controls-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 1.35rem;
+  box-shadow: var(--shadow-bento);
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.tabs-nav-small {
+  display: flex;
+  gap: 0.5rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.65rem;
+}
+
+.tab-btn-sm {
+  background: transparent;
+  border: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0.35rem 0.75rem;
+  border-radius: var(--radius-xs);
+  transition: all 0.15s ease;
+}
+
+.tab-btn-sm.active {
+  background: var(--apple-blue-light);
+  color: var(--apple-blue);
+}
+
+/* Sliders Grid */
+.sensor-sliders-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.15rem;
+}
+
+.sensor-slider-box {
+  background: var(--bg-card-secondary);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  padding: 0.95rem 1.15rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.slider-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.slider-title {
+  font-size: 0.825rem;
+  font-weight: 700;
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.slider-val-badge {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--apple-blue);
+  font-family: monospace;
+}
+
+.sensor-range-input {
+  width: 100%;
+  accent-color: var(--apple-blue);
+  cursor: pointer;
+}
+
+.slider-bounds {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.7rem;
+  color: var(--text-light);
+}
+
+/* SD Card Simulated Logging Table */
+.sd-logger-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.sd-status-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  background: var(--bg-card-secondary);
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-light);
+}
+
+.sd-stats-pills {
+  display: flex;
+  gap: 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.sd-table-wrap {
+  max-height: 180px;
+  overflow-y: auto;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+}
+
+.sd-log-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.775rem;
+}
+
+.sd-log-table th {
+  background: var(--bg-card-secondary);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  font-weight: 700;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border-color);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.sd-log-table td {
+  padding: 0.45rem 0.75rem;
+  border-bottom: 1px solid var(--border-light);
+  color: var(--text-main);
+  font-family: monospace;
+}
+
+.sd-log-table tr:hover td {
+  background: var(--apple-blue-light);
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .hardware-lab-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .lab-toolbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .lab-viewport-card {
+    min-height: 420px;
+  }
+}

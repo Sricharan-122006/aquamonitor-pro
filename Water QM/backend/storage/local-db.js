@@ -2,9 +2,28 @@ const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
 
-const DATA_DIR = path.join(__dirname, '..', '..', 'data');
+const isServerless = !!(process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME);
+const SOURCE_DATA_DIR = path.join(__dirname, '..', '..', 'data');
+const DATA_DIR = isServerless ? path.join('/tmp', 'aquamonitor_data') : SOURCE_DATA_DIR;
+
 if (!fs.existsSync(DATA_DIR)) {
   fs.mkdirSync(DATA_DIR, { recursive: true });
+}
+
+// In serverless environments, copy baseline seed files into writable /tmp scratch space
+if (isServerless && fs.existsSync(SOURCE_DATA_DIR)) {
+  try {
+    const files = fs.readdirSync(SOURCE_DATA_DIR);
+    files.forEach(file => {
+      const src = path.join(SOURCE_DATA_DIR, file);
+      const dest = path.join(DATA_DIR, file);
+      if (fs.existsSync(src) && !fs.existsSync(dest)) {
+        fs.copyFileSync(src, dest);
+      }
+    });
+  } catch (e) {
+    console.warn('[Storage] Notice syncing files to /tmp:', e.message);
+  }
 }
 
 class LocalCollection {
